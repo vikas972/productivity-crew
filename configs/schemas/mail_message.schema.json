@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MailMessage",
+  "type": "object",
+  "properties": {
+    "msg_id": {
+      "type": "string",
+      "pattern": "^MSG-[0-9]+$"
+    },
+    "thread_id": {
+      "type": "string",
+      "pattern": "^MAIL-TH-[0-9]+$"
+    },
+    "subject": {
+      "type": "string",
+      "minLength": 1
+    },
+    "from": {
+      "type": "string",
+      "format": "email"
+    },
+    "to": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "email"
+      },
+      "minItems": 1
+    },
+    "cc": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "email"
+      }
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "body_md": {
+      "type": "string"
+    },
+    "attachments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "category": {
+      "type": "string",
+      "enum": ["work", "managerial", "customer", "corporate", "hr", "vendor", "security", "event", "facilities", "spam", "phishing_sim"]
+    },
+    "list_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "is_broadcast": {
+      "type": "boolean"
+    },
+    "is_external": {
+      "type": "boolean"
+    },
+    "importance": {
+      "type": "string",
+      "enum": ["low", "normal", "high"]
+    },
+    "spam_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "refs": {
+      "type": "object",
+      "properties": {
+        "ticket_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]+-[0-9]+$"
+          }
+        },
+        "pr_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "doc_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": ["ticket_ids", "pr_ids", "doc_ids"],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "msg_id",
+    "thread_id",
+    "subject",
+    "from",
+    "to",
+    "cc",
+    "timestamp",
+    "body_md",
+    "attachments",
+    "category",
+    "list_ids",
+    "is_broadcast",
+    "is_external",
+    "importance",
+    "spam_score",
+    "refs"
+  ],
+  "additionalProperties": false
+}

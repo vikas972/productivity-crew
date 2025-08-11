@@ -1,0 +1,39 @@
+industry: Fintech SaaS
+company:
+  name: VistaraPay
+  mission: Simplify digital payments for SMEs across India.
+  tone: concise, data-first, supportive
+  values: ["Customer obsession", "Bias for action", "Ownership"]
+
+time_window:
+  start: 2025-07-01
+  end: 2025-08-07
+  business_days_only: true
+  timezone: Asia/Kolkata
+
+org:
+  team_name: Payments Core
+  geo: ["Bengaluru", "Mumbai", "Remote-IN"]
+  levels: ["Jr", "Sr", "TL", "Mgr"]
+  manager_span: {min: 6, max: 8}
+
+project:
+  key: PAY
+  name: Payments Reliability
+  sprint_length_days: 14
+
+volumes:
+  jira_tickets_in_window: {min: 28, max: 40}
+  emails_per_person_per_week: {min: 25, max: 60}
+  comment_ratio: 1.6
+
+mail:
+  categories: ["work", "managerial", "customer", "corporate", "hr", "vendor", "security", "event", "facilities", "spam", "phishing_sim"]
+  thread_depth: {min: 2, max: 6}
+
+privacy:
+  synthetic_only: true
+  no_real_persons: true
+  redact_like_production: true
+
+outputs: ["jira", "email"]

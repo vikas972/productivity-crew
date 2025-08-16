@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-08-10T18:59:44.954686",
+  "step": "mailbox_generation",
+  "transformation": "raw_email_team_lead_1",
+  "before": {
+    "subject": "Cross-team alignment on [PAY-001]",
+    "timestamp": "2025-07-07T10:30:00+05:30",
+    "content": "Hi All,\n\nIn light of our findings on ticket [PAY-001], I propose we align our efforts with the infra team to ensure that our changes do not affect overall performance. Let\u2019s discuss our dependencies in the next meeting.\n\nRegards,\nTeam Lead 1"
+  },
+  "after": "None"
+}

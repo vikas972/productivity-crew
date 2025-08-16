@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-08-10T19:36:20.587105",
+  "step": "unknown",
+  "agent": "unknown",
+  "parsed_type": "<class 'list'>",
+  "parsed_data": [
+    {
+      "category": "data_quality",
+      "description": "No data produced for validation affects timeline consistency.",
+      "affected_entities": {
+        "tickets": 0,
+        "emails": 0
+      },
+      "suggested_remediation": "Add entries to tickets and emails to allow for timeline checks."
+    }
+  ]
+}

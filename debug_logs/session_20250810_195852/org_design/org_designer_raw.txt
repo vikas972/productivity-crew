@@ -1,0 +1,111 @@
+=== LLM RAW OUTPUT ===
+Timestamp: 2025-08-10T19:59:24.639312
+Step: org_design
+Agent: org_designer
+Output Type: <class 'str'>
+==================================================
+
+```json
+[
+    {
+        "person_id": "PER-0001",
+        "name": "Rahul Sharma",
+        "role": "Software Engineer",
+        "level": "Jr",
+        "team_id": "TEAM-PAY",
+        "manager_id": null,
+        "skills": ["Python", "Git", "JIRA"],
+        "location": "Bengaluru"
+    },
+    {
+        "person_id": "PER-0002",
+        "name": "Sneha Reddy",
+        "role": "Software Engineer",
+        "level": "Jr",
+        "team_id": "TEAM-PAY",
+        "manager_id": null,
+        "skills": ["Java", "PostgreSQL", "Node.js"],
+        "location": "Mumbai"
+    },
+    {
+        "person_id": "PER-0003",
+        "name": "Amit Patel",
+        "role": "Software Engineer",
+        "level": "Jr",
+        "team_id": "TEAM-PAY",
+        "manager_id": null,
+        "skills": ["JavaScript", "Flask", "Docker"],
+        "location": "Remote-IN"
+    },
+    {
+        "person_id": "PER-0004",
+        "name": "Neha Gupta",
+        "role": "Software Engineer",
+        "level": "Sr",
+        "team_id": "TEAM-PAY",
+        "manager_id": null,
+        "skills": ["Kotlin", "Spring Boot", "Git", "Payment APIs", "AWS"],
+        "location": "Bengaluru"
+    },
+    {
+        "person_id": "PER-0005",
+        "name": "Vikram Singh",
+        "role": "Software Engineer",
+        "level": "Sr",
+        "team_id": "TEAM-PAY",
+        "manager_id": null,
+        "skills": ["React", "Java", "Elasticsearch", "Docker", "KYC"],
+        "location": "Mumbai"
+    },
+    {
+        "person_id": "PER-0006",
+        "name": "Pooja Mehta",
+        "role": "Software Engineer",
+        "level": "Sr",
+        "team_id": "TEAM-PAY",
+        "manager_id": null,
+        "skills": ["Go", "Django", "MongoDB", "Fraud Detection", "Azure"],
+        "location": "Remote-IN"
+    },
+    {
+        "person_id": "PER-0007",
+        "name": "Suresh Joshi",
+        "role": "Team Lead",
+        "level": "TL",
+        "team_id": "TEAM-PAY",
+        "manager_id": null,
+        "skills": ["JavaScript", "Kotlin", "AWS", "Leadership", "Blockchain", "Jenkins"],
+        "location": "Bengaluru"
+    },
+    {
+        "person_id": "PER-0008",
+        "name": "Rina Desai",
+        "role": "Team Lead",
+        "level": "TL",
+        "team_id": "TEAM-PAY",
+        "manager_id": null,
+        "skills": ["Python", "Spring Boot", "Leadership", "KYC", "Docker", "Confluence"],
+        "location": "Mumbai"
+    },
+    {
+        "person_id": "PER-0009",
+        "name": "Anil Nair",
+        "role": "Engineering Manager",
+        "level": "Mgr",
+        "team_id": "TEAM-PAY",
+        "manager_id": null,
+        "skills": ["Strategic Planning", "People Management", "Java", "Cloud", "Payment APIs"],
+        "location": "Remote-IN"
+    },
+    {
+        "person_id": "PER-0010",
+        "name": "Kiran Raju",
+        "role": "Team Lead",
+        "level": "TL",
+        "team_id": "TEAM-PAY",
+        "manager_id": "PER-0009",
+        "skills": ["Java", "Git", "Node.js", "Leadership", "Fraud Detection", "Scaling Applications"],
+        "location": "Mumbai"
+    }
+]
+```

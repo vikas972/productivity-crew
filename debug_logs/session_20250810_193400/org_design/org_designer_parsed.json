@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-08-10T19:34:35.692223",
+  "step": "org_design",
+  "agent": "org_designer",
+  "parsed_type": "<class 'dict'>",
+  "parsed_data": {
+    "person_id": "PER-0002",
+    "name": "Anjali Gupta",
+    "role": "Software Engineer",
+    "level": "Jr",
+    "team_id": "TEAM-PAY",
+    "manager_id": "PER-0004",
+    "skills": [
+      "JavaScript",
+      "Node.js",
+      "JIRA"
+    ],
+    "location": "Mumbai"
+  }
+}

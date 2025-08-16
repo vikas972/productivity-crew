@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-08-10T18:59:44.949719",
+  "step": "mailbox_generation",
+  "transformation": "raw_email_junior_engineer_1",
+  "before": {
+    "subject": "How do I handle [PAY-003]?",
+    "timestamp": "2025-07-04T11:30:00+05:30",
+    "content": "Hello,\n\nI need clarification on how to handle the validation errors in ticket [PAY-003]. What are the best practices we follow in such scenarios?\n\nAppreciate your help!\nRegards,\nJunior Engineer 1"
+  },
+  "after": "None"
+}

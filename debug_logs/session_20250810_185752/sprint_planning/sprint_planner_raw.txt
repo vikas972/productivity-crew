@@ -1,0 +1,71 @@
+=== LLM RAW OUTPUT ===
+Timestamp: 2025-08-10T18:58:43.707831
+Step: sprint_planning
+Agent: sprint_planner
+Output Type: <class 'str'>
+==================================================
+
+```python
+{
+    "sprints": [
+        {
+            "sprint_id": "SPRINT-1",
+            "name": "Foundation and Setup",
+            "start_date": "2025-07-01T00:00:00+05:30",
+            "end_date": "2025-07-14T23:59:59+05:30",
+            "project_id": "PROJ-PAY"
+        },
+        {
+            "sprint_id": "SPRINT-2",
+            "name": "Core Development",
+            "start_date": "2025-07-15T00:00:00+05:30",
+            "end_date": "2025-07-28T23:59:59+05:30",
+            "project_id": "PROJ-PAY"
+        },
+        {
+            "sprint_id": "SPRINT-3",
+            "name": "Integration and Testing",
+            "start_date": "2025-07-29T00:00:00+05:30",
+            "end_date": "2025-08-07T23:59:59+05:30",
+            "project_id": "PROJ-PAY"
+        }
+    ],
+    "calendar_templates": [
+        {
+            "event_type": "daily_standup",
+            "frequency": "daily",
+            "time": "09:45",
+            "duration_minutes": 15,
+            "attendees": "All team members"
+        },
+        {
+            "event_type": "sprint_planning",
+            "frequency": "per_sprint",
+            "time": "10:00",
+            "duration_minutes": 120,
+            "attendees": "All team members"
+        },
+        {
+            "event_type": "sprint_retrospective",
+            "frequency": "per_sprint",
+            "time": "15:00",
+            "duration_minutes": 90,
+            "attendees": "All team members"
+        },
+        {
+            "event_type": "sprint_review",
+            "frequency": "per_sprint",
+            "time": "14:00",
+            "duration_minutes": 60,
+            "attendees": "Team + stakeholders"
+        },
+        {
+            "event_type": "backlog_grooming",
+            "frequency": "weekly",
+            "time": "14:00",
+            "duration_minutes": 60,
+            "attendees": "Core team"
+        }
+    ]
+}
+```

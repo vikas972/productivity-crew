@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-08-10T19:05:09.194671",
+  "step": "mailbox_generation",
+  "transformation": "raw_email_team_lead_1",
+  "before": {
+    "subject": "Cross-team collaboration with Fraud Detection Team",
+    "body": "Hi everyone,\n\nWe\u2019re setting up a collaborative session with the Fraud Detection Team to streamline our workflows. I need everyone\u2019s inputs on what challenges we face with integrations. Please reply by end of day tomorrow.\n\nThanks,\nTeam Lead 1",
+    "timestamp": "2025-07-05 14:00:00"
+  },
+  "after": "None"
+}

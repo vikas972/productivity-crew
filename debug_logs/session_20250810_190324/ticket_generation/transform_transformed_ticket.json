@@ -1,0 +1,130 @@
+{
+  "timestamp": "2025-08-10T19:04:37.690262",
+  "step": "ticket_generation",
+  "transformation": "transformed_ticket",
+  "before": {
+    "ticket_id": "PAY-0005",
+    "project_id": "PROJ-PAY",
+    "epic_id": "Epic-1",
+    "type": "Story",
+    "title": "Enhance Security Compliance for Payments",
+    "description": "Improve security measures to be compliant with new fintech regulations. Acceptance Criteria: 1) All sensitive data is encrypted, 2) Compliance checklist completed and verified.",
+    "priority": "Critical",
+    "story_points": 8,
+    "reporter_id": "TL-2",
+    "assignee_id": "DEV-6",
+    "status_timeline": [
+      {
+        "status": "Backlog",
+        "date": "2025-07-01"
+      },
+      {
+        "status": "To Do",
+        "date": "2025-07-02"
+      },
+      {
+        "status": "In Progress",
+        "date": "2025-07-06"
+      },
+      {
+        "status": "Code Review",
+        "date": "2025-07-10"
+      },
+      {
+        "status": "Testing",
+        "date": "2025-07-12"
+      },
+      {
+        "status": "Done",
+        "date": "2025-07-14"
+      }
+    ],
+    "comments": [
+      {
+        "date": "2025-07-01",
+        "comment": "Could we align the compliance checklist with our audit logs?"
+      },
+      {
+        "date": "2025-07-06",
+        "comment": "Almost there; final encryption settings are being adjusted."
+      },
+      {
+        "date": "2025-07-10",
+        "comment": "LGTM, please conduct thorough testing on encryption."
+      },
+      {
+        "date": "2025-07-12",
+        "comment": "Testing passed with no issues."
+      }
+    ],
+    "attachments": [
+      "compliance_checklist.docx"
+    ]
+  },
+  "after": {
+    "ticket_id": "PAY-0005",
+    "project_id": "PROJ-PAY",
+    "epic_id": "Epic-1",
+    "type": "Story",
+    "title": "Enhance Security Compliance for Payments",
+    "description": "Improve security measures to be compliant with new fintech regulations. Acceptance Criteria: 1) All sensitive data is encrypted, 2) Compliance checklist completed and verified.",
+    "priority": "Critical",
+    "story_points": 8,
+    "reporter_id": "PER-0002",
+    "assignee_id": "PER-0006",
+    "status_timeline": [
+      {
+        "status": "Backlog",
+        "at": "2025-07-01 00:00:00"
+      },
+      {
+        "status": "To Do",
+        "at": "2025-07-02 00:00:00"
+      },
+      {
+        "status": "In Progress",
+        "at": "2025-07-06 00:00:00"
+      },
+      {
+        "status": "Code Review",
+        "at": "2025-07-10 00:00:00"
+      },
+      {
+        "status": "Testing",
+        "at": "2025-07-12 00:00:00"
+      },
+      {
+        "status": "Done",
+        "at": "2025-07-14 00:00:00"
+      }
+    ],
+    "comments": [
+      {
+        "body": "Could we align the compliance checklist with our audit logs?",
+        "at": "2025-07-01 00:00:00",
+        "author_id": "PER-0006"
+      },
+      {
+        "body": "Almost there; final encryption settings are being adjusted.",
+        "at": "2025-07-06 00:00:00",
+        "author_id": "PER-0006"
+      },
+      {
+        "body": "LGTM, please conduct thorough testing on encryption.",
+        "at": "2025-07-10 00:00:00",
+        "author_id": "PER-0006"
+      },
+      {
+        "body": "Testing passed with no issues.",
+        "at": "2025-07-12 00:00:00",
+        "author_id": "PER-0006"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "compliance_checklist.docx",
+        "url": "https://example.com/attachments/compliance_checklist.docx"
+      }
+    ]
+  }
+}

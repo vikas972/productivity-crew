@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-08-10T19:54:56.189829",
+  "step": "unknown",
+  "agent": "unknown",
+  "parsed_type": "<class 'dict'>",
+  "parsed_data": {
+    "IntegrityReport": {
+      "passed": false,
+      "errors": [
+        {
+          "category": "referential_integrity",
+          "description": "No tickets generated to validate assignee_ids or reporter_ids.",
+          "affected_entities": {
+            "tickets": "0",
+            "persons": "10"
+          },
+          "suggested_remediation": "Generate at least one ticket to validate assignee and reporter IDs."
+        },
+        {
+          "category": "business_rules",
+          "description": "No emails generated to validate email subjects or refs.ticket_ids.",
+          "affected_entities": {
+            "emails": "0"
+          },
+          "suggested_remediation": "Generate at least one email mentioning a ticket to validate subject rules."
+        },
+        {
+          "category": "business_rules",
+          "description": "No tickets have status to validate Done Ticket Rule.",
+          "affected_entities": {
+            "tickets": "0"
+          },
+          "suggested_remediation": "Create tickets with a 'Done' status to check code review comments."
+        },
+        {
+          "category": "data_quality",
+          "description": "No tickets or emails available to check timeline consistency.",
+          "affected_entities": {
+            "tickets": "0",
+            "emails": "0"
+          },
+          "suggested_remediation": "Generate tickets and emails to assess timeline consistency."
+        },
+        {
+          "category": "data_quality",
+          "description": "No emails generated to evaluate business hours realism and spam limits.",
+          "affected_entities": {
+            "emails": "0"
+          },
+          "suggested_remediation": "Create emails within various timeframes to assess business hours realism."
+        },
+        {
+          "category": "schema_compliance",
+          "description": "No objects available to check schema compliance against Pydantic models.",
+          "affected_entities": {
+            "persons": "10"
+          },
+          "suggested_remediation": "Confirm that all fields for the 10 persons comply with schema requirements."
+        },
+        {
+          "category": "volume_validation",
+          "description": "Ticket and email counts are not generated; must be within configured range.",
+          "affected_entities": {
+            "tickets": "0",
+            "emails": "0"
+          },
+          "suggested_remediation": "Generate tickets and emails to meet configured volume ranges."
+        }
+      ],
+      "warnings": [],
+      "ticket_count": 0,
+      "email_count": 0,
+      "person_count": 10
+    }
+  }
+}

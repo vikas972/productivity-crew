@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-08-10T19:05:09.188513",
+  "step": "mailbox_generation",
+  "transformation": "raw_email_junior_engineer_1",
+  "before": {
+    "subject": "How do I integrate the new fraud detection tool?",
+    "body": "Hi Team,\n\nI just got access to the new fraud detection tool we discussed in the last meeting. Could anyone share how to start integrating it into our system?\n\nLooking forward to your assistance!\n\nCheers,\nJunior Engineer 1",
+    "timestamp": "2025-07-03 09:30:00"
+  },
+  "after": "None"
+}

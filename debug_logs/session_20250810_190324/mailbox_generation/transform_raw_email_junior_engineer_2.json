@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-08-10T19:05:09.189937",
+  "step": "mailbox_generation",
+  "transformation": "raw_email_junior_engineer_2",
+  "before": {
+    "subject": "How do I test the payment gateway integration?",
+    "body": "Hi Team,\n\nI need to test the integration with the payment gateway before our final rollout. Is there a checklist or some resources on how to do this effectively?\n\nAppreciate your help!\n\nRegards,\nJunior Engineer 2",
+    "timestamp": "2025-07-04 14:00:00"
+  },
+  "after": "None"
+}

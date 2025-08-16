@@ -1,0 +1,94 @@
+{
+  "timestamp": "2025-08-10T18:42:30.976497",
+  "step": "industry_selection",
+  "agent": "industry_selector",
+  "parsed_type": "<class 'dict'>",
+  "parsed_data": {
+    "company_name": "VistaraPay",
+    "mission": "Simplify digital payments for SMEs across India.",
+    "tone": "concise, data-first, supportive",
+    "values": [
+      "Customer obsession",
+      "Bias for action",
+      "Ownership"
+    ],
+    "products": [
+      {
+        "name": "VistaraPay Gateway",
+        "description": "A robust digital payment gateway that supports multiple payment modes including UPI, cards, and digital wallets tailored for small to medium enterprises.",
+        "features": [
+          "Instant transaction processing",
+          "Multi-currency support",
+          "Comprehensive analytics dashboard"
+        ]
+      },
+      {
+        "name": "VistaraPay InvoicePro",
+        "description": "A seamless invoicing solution designed for SMEs to create and manage invoices effortlessly while including built-in payment links.",
+        "features": [
+          "Customizable templates",
+          "Automated reminders",
+          "Payment tracking"
+        ]
+      },
+      {
+        "name": "VistaraPay LendingOptions",
+        "description": "A business loan and credit facility offering for SMEs to facilitate easier access to funds for growth and operations.",
+        "features": [
+          "Quick approval process",
+          "Flexible repayment plans",
+          "Integration with existing payment solutions"
+        ]
+      },
+      {
+        "name": "VistaraPay Compliance Hub",
+        "description": "An end-to-end compliance management solution that assists SMEs in adhering to RBI regulations and financial security standards.",
+        "features": [
+          "Regulatory updates",
+          "Documentation support",
+          "Risk assessment tools"
+        ]
+      }
+    ],
+    "constraints": [
+      "High customer acquisition cost in a competitive market.",
+      "Need for strong cybersecurity measures against data breaches.",
+      "Integration challenges with legacy systems used by SMEs.",
+      "Limited digital literacy among some SME demographics.",
+      "Evolving regulatory landscape requires constant adaptation."
+    ],
+    "regulatory_considerations": [
+      "Compliance with RBI guidelines on digital payments.",
+      "Adherence to KYC (Know Your Customer) norms.",
+      "Data localization requirements under Indian law.",
+      "Ensuring confidentiality and data protection as outlined by GDPR in a localized context."
+    ],
+    "tech_stack": [
+      "Programming Languages: JavaScript (Node.js, ReactJS), Python",
+      "Cloud Platforms: AWS or Azure for scalable infrastructure",
+      "Database: PostgreSQL or MongoDB",
+      "Payment APIs: Razorpay, Paytm for integration",
+      "Security: SSL for data transaction, OAuth for authentication"
+    ],
+    "communication_style": {
+      "tone": "Concise and data-driven communication that emphasizes clarity and support.",
+      "content_type": "Utilize informative blogs, whitepapers, and case studies, focusing on insights derived from data.",
+      "voice": "Friendly yet professional; aim to demystify complex topics with straightforward explanations.",
+      "response_time": "Aim for quick and timely responses to customer inquiries across all platforms."
+    },
+    "target_customers": [
+      {
+        "segment": "Tech-savvy SMEs",
+        "description": "Small to medium-sized enterprises already using digital tools for operations looking for optimized payment solutions."
+      },
+      {
+        "segment": "Traditional family-run businesses",
+        "description": "SMEs transitioning from cash to digital payments requiring education and supportive onboarding processes."
+      },
+      {
+        "segment": "Startups",
+        "description": "Newly established businesses focusing on scaling operations quickly with agile financing and payment integration."
+      }
+    ]
+  }
+}

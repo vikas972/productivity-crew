@@ -1,0 +1,165 @@
+{
+  "timestamp": "2025-08-10T19:53:08.055677",
+  "step": "org_design",
+  "agent": "org_designer",
+  "parsed_type": "<class 'list'>",
+  "parsed_data": [
+    {
+      "person_id": "PER-0001",
+      "name": "Rahul Sharma",
+      "role": "Software Engineer",
+      "level": "Jr",
+      "team_id": "TEAM-PAY",
+      "manager_id": "PER-0005",
+      "skills": [
+        "Python",
+        "Git",
+        "JIRA"
+      ],
+      "location": "Bengaluru"
+    },
+    {
+      "person_id": "PER-0002",
+      "name": "Priya Patel",
+      "role": "Software Engineer",
+      "level": "Jr",
+      "team_id": "TEAM-PAY",
+      "manager_id": "PER-0005",
+      "skills": [
+        "JavaScript",
+        "React",
+        "JIRA"
+      ],
+      "location": "Mumbai"
+    },
+    {
+      "person_id": "PER-0003",
+      "name": "Anil Mehta",
+      "role": "Software Engineer",
+      "level": "Jr",
+      "team_id": "TEAM-PAY",
+      "manager_id": "PER-0005",
+      "skills": [
+        "Java",
+        "Django",
+        "Git"
+      ],
+      "location": "Remote-IN"
+    },
+    {
+      "person_id": "PER-0004",
+      "name": "Sita Reddy",
+      "role": "Software Engineer",
+      "level": "Sr",
+      "team_id": "TEAM-PAY",
+      "manager_id": "PER-0006",
+      "skills": [
+        "Go",
+        "Node.js",
+        "PostgreSQL",
+        "AWS",
+        "Git"
+      ],
+      "location": "Bengaluru"
+    },
+    {
+      "person_id": "PER-0005",
+      "name": "Ramesh Gupta",
+      "role": "Team Lead",
+      "level": "TL",
+      "team_id": "TEAM-PAY",
+      "manager_id": "PER-0007",
+      "skills": [
+        "Kotlin",
+        "Flask",
+        "AWS",
+        "Docker",
+        "JIRA",
+        "Leadership"
+      ],
+      "location": "Bengaluru"
+    },
+    {
+      "person_id": "PER-0006",
+      "name": "Kiran Nair",
+      "role": "Team Lead",
+      "level": "TL",
+      "team_id": "TEAM-PAY",
+      "manager_id": "PER-0007",
+      "skills": [
+        "Java",
+        "Elasticsearch",
+        "Spring Boot",
+        "Kubernetes",
+        "Git",
+        "Leadership"
+      ],
+      "location": "Mumbai"
+    },
+    {
+      "person_id": "PER-0007",
+      "name": "Deepak Iyer",
+      "role": "Engineering Manager",
+      "level": "Mgr",
+      "team_id": "TEAM-PAY",
+      "manager_id": null,
+      "skills": [
+        "Payment APIs",
+        "KYC",
+        "Fraud Detection",
+        "Cloud Architecture",
+        "People Management",
+        "Strategic Planning"
+      ],
+      "location": "Remote-IN"
+    },
+    {
+      "person_id": "PER-0008",
+      "name": "Sneha Joshi",
+      "role": "Software Engineer",
+      "level": "Sr",
+      "team_id": "TEAM-PAY",
+      "manager_id": "PER-0006",
+      "skills": [
+        "TypeScript",
+        "Django",
+        "MongoDB",
+        "Docker",
+        "JIRA"
+      ],
+      "location": "Mumbai"
+    },
+    {
+      "person_id": "PER-0009",
+      "name": "Vijay Desai",
+      "role": "Software Engineer",
+      "level": "Sr",
+      "team_id": "TEAM-PAY",
+      "manager_id": "PER-0006",
+      "skills": [
+        "Python",
+        "Flask",
+        "Redis",
+        "AWS",
+        "Leadership"
+      ],
+      "location": "Bengaluru"
+    },
+    {
+      "person_id": "PER-0010",
+      "name": "Nisha Varma",
+      "role": "Software Engineer",
+      "level": "Sr",
+      "team_id": "TEAM-PAY",
+      "manager_id": "PER-0006",
+      "skills": [
+        "JavaScript",
+        "Node.js",
+        "PostgreSQL",
+        "Fraud Detection",
+        "KYC"
+      ],
+      "location": "Remote-IN"
+    }
+  ]
+}

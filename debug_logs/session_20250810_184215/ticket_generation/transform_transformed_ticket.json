@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-08-10T18:45:53.572412",
+  "step": "ticket_generation",
+  "transformation": "transformed_ticket",
+  "before": {
+    "ticket_id": "PAY-0020",
+    "project_id": "PROJ-PAY",
+    "epic_id": "EPIC-0002",
+    "type": "Bug",
+    "title": "Resolve User Authentication Issues",
+    "description": "Users are facing issues while authenticating into their accounts during transaction. Ensure smooth authentication to avoid drop offs. Acceptance Criteria: Authentication should be successful for all user types.",
+    "priority": "Critical",
+    "story_points": null,
+    "reporter_id": "TL-002",
+    "assignee_id": "DEV-001",
+    "status_timeline": [
+      {
+        "status": "Backlog",
+        "date": "2025-07-01"
+      },
+      {
+        "status": "To Do",
+        "date": "2025-07-02"
+      },
+      {
+        "status": "In Progress",
+        "date": "2025-07-03"
+      },
+      {
+        "status": "Code Review",
+        "date": "2025-07-05"
+      },
+      {
+        "status": "Testing",
+        "date": "2025-07-06"
+      },
+      {
+        "status": "Done",
+        "date": "2025-07-08"
+      }
+    ],
+    "comments": [
+      {
+        "comment": "What error messages are users receiving?",
+        "date": "2025-07-02",
+        "status": "To Do"
+      },
+      {
+        "comment": "Found issues related to token validation. Fixing now.",
+        "date": "2025-07-03",
+        "status": "In Progress"
+      },
+      {
+        "comment": "Good change! Consider review for security best practices.",
+        "date": "2025-07-05",
+        "status": "Code Review"
+      },
+      {
+        "comment": "Testing completed with all user types successfully authenticating.",
+        "date": "2025-07-06",
+        "status": "Testing"
+      },
+      {
+        "comment": "Auth issues resolved, deployment successful!",
+        "date": "2025-07-08",
+        "status": "Done"
+      }
+    ],
+    "attachments": []
+  },
+  "after": {
+    "ticket_id": "PAY-0020",
+    "project_id": "PROJ-PAY",
+    "epic_id": "EPIC-PAY-0002",
+    "type": "Bug",
+    "title": "Resolve User Authentication Issues",
+    "description": "Users are facing issues while authenticating into their accounts during transaction. Ensure smooth authentication to avoid drop offs. Acceptance Criteria: Authentication should be successful for all user types.",
+    "priority": "Critical",
+    "story_points": null,
+    "reporter_id": "PER-0002",
+    "assignee_id": "PER-0001",
+    "status_timeline": [
+      {
+        "status": "Backlog",
+        "at": "2025-07-01 00:00:00"
+      },
+      {
+        "status": "To Do",
+        "at": "2025-07-02 00:00:00"
+      },
+      {
+        "status": "In Progress",
+        "at": "2025-07-03 00:00:00"
+      },
+      {
+        "status": "Code Review",
+        "at": "2025-07-05 00:00:00"
+      },
+      {
+        "status": "Testing",
+        "at": "2025-07-06 00:00:00"
+      },
+      {
+        "status": "Done",
+        "at": "2025-07-08 00:00:00"
+      }
+    ],
+    "comments": [
+      {
+        "body": "What error messages are users receiving?",
+        "at": "2025-07-02 00:00:00",
+        "author_id": "PER-0001"
+      },
+      {
+        "body": "Found issues related to token validation. Fixing now.",
+        "at": "2025-07-03 00:00:00",
+        "author_id": "PER-0001"
+      },
+      {
+        "body": "Good change! Consider review for security best practices.",
+        "at": "2025-07-05 00:00:00",
+        "author_id": "PER-0001"
+      },
+      {
+        "body": "Testing completed with all user types successfully authenticating.",
+        "at": "2025-07-06 00:00:00",
+        "author_id": "PER-0001"
+      },
+      {
+        "body": "Auth issues resolved, deployment successful!",
+        "at": "2025-07-08 00:00:00",
+        "author_id": "PER-0001"
+      }
+    ],
+    "attachments": []
+  }
+}

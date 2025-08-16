@@ -1,0 +1,134 @@
+{
+  "timestamp": "2025-08-10T19:03:48.091180",
+  "step": "org_design",
+  "agent": "org_designer",
+  "parsed_type": "<class 'list'>",
+  "parsed_data": [
+    {
+      "person_id": "PER-0001",
+      "name": "Aarav Mehta",
+      "role": "Software Engineer",
+      "level": "Jr",
+      "team_id": "TEAM-PAY",
+      "manager_id": null,
+      "skills": [
+        "Python",
+        "Git",
+        "JIRA"
+      ],
+      "location": "Bengaluru"
+    },
+    {
+      "person_id": "PER-0002",
+      "name": "Diya Nair",
+      "role": "Software Engineer",
+      "level": "Jr",
+      "team_id": "TEAM-PAY",
+      "manager_id": null,
+      "skills": [
+        "Java",
+        "PostgreSQL",
+        "JIRA"
+      ],
+      "location": "Mumbai"
+    },
+    {
+      "person_id": "PER-0003",
+      "name": "Vihaan Suresh",
+      "role": "Software Engineer",
+      "level": "Sr",
+      "team_id": "TEAM-PAY",
+      "manager_id": null,
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Git",
+        "AWS"
+      ],
+      "location": "Remote-IN"
+    },
+    {
+      "person_id": "PER-0004",
+      "name": "Anaya Gupta",
+      "role": "Software Engineer",
+      "level": "Sr",
+      "team_id": "TEAM-PAY",
+      "manager_id": null,
+      "skills": [
+        "Kotlin",
+        "Spring Boot",
+        "Elasticsearch",
+        "Docker",
+        "JIRA"
+      ],
+      "location": "Bengaluru"
+    },
+    {
+      "person_id": "PER-0005",
+      "name": "Kabir Joshi",
+      "role": "Software Engineer",
+      "level": "Sr",
+      "team_id": "TEAM-PAY",
+      "manager_id": null,
+      "skills": [
+        "Go",
+        "Django",
+        "MongoDB",
+        "Git",
+        "AWS"
+      ],
+      "location": "Mumbai"
+    },
+    {
+      "person_id": "PER-0006",
+      "name": "Meera Desai",
+      "role": "Team Lead",
+      "level": "TL",
+      "team_id": "TEAM-PAY",
+      "manager_id": null,
+      "skills": [
+        "Java",
+        "Python",
+        "Fraud Detection",
+        "KYC",
+        "JIRA",
+        "Leadership"
+      ],
+      "location": "Bengaluru"
+    },
+    {
+      "person_id": "PER-0007",
+      "name": "Rohan Iyer",
+      "role": "Team Lead",
+      "level": "TL",
+      "team_id": "TEAM-PAY",
+      "manager_id": null,
+      "skills": [
+        "Go",
+        "React",
+        "Node.js",
+        "Kubernetes",
+        "Leadership",
+        "Cloud"
+      ],
+      "location": "Mumbai"
+    },
+    {
+      "person_id": "PER-0008",
+      "name": "Sanya Sharma",
+      "role": "Engineering Manager",
+      "level": "Mgr",
+      "team_id": "TEAM-PAY",
+      "manager_id": null,
+      "skills": [
+        "AWS",
+        "Docker",
+        "Team Management",
+        "Blockchain",
+        "JIRA"
+      ],
+      "location": "Remote-IN"
+    }
+  ]
+}

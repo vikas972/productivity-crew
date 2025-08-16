@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-08-10T20:02:51.348700",
+  "step": "ticket_generation",
+  "transformation": "raw_ticket",
+  "before": {
+    "ticket_id": "PAY-0028",
+    "project_id": "PROJ-PAY",
+    "epic_id": "EPIC-003",
+    "type": "Task",
+    "title": "Document API integrations",
+    "description": "Create documentation for existing API integrations. Acceptance criteria: \n- Must include endpoints, parameters, and response formats.\n- Documentation should be easily accessible.",
+    "priority": "Low",
+    "reporter_id": "TL-001",
+    "assignee_id": "DEV-005",
+    "status_timeline": [
+      {
+        "status": "Backlog",
+        "date": "2025-07-01"
+      },
+      {
+        "status": "To Do",
+        "date": "2025-07-02"
+      },
+      {
+        "status": "In Progress",
+        "date": "2025-07-03"
+      },
+      {
+        "status": "Done",
+        "date": "2025-07-04"
+      }
+    ],
+    "comments": [
+      {
+        "date": "2025-07-01",
+        "comment": "What API integrations should be prioritized for documentation?"
+      },
+      {
+        "date": "2025-07-03",
+        "comment": "Draft documentation is ready for review."
+      }
+    ],
+    "attachments": []
+  },
+  "after": "None"
+}

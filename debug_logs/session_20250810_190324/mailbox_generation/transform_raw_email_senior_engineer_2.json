@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-08-10T19:05:09.192214",
+  "step": "mailbox_generation",
+  "transformation": "raw_email_senior_engineer_2",
+  "before": {
+    "subject": "Updates on the payment processing error",
+    "body": "Hi Team,\n\nI investigated the errors we\u2019ve been encountering in the payment processor. The root cause appears to be related to external API changes. I recommend we set up regular monitoring for these APIs moving forward.\n\nCheers,\nSenior Engineer 2",
+    "timestamp": "2025-07-03 09:15:00"
+  },
+  "after": "None"
+}

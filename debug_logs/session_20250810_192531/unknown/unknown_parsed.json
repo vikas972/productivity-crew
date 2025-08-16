@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-08-10T19:27:38.780497",
+  "step": "unknown",
+  "agent": "unknown",
+  "parsed_type": "<class 'dict'>",
+  "parsed_data": {
+    "IntegrityReport": {
+      "passed": false,
+      "errors": [
+        {
+          "category": "referential_integrity",
+          "description": "No tickets generated; therefore, unable to verify ticket assignee_ids and reporter_ids.",
+          "affected_entities": {
+            "ticket_count": 0,
+            "person_count": 10
+          },
+          "suggested_remediation": "Generate at least one ticket to ensure validation of assignee and reporter references."
+        },
+        {
+          "category": "business_rules",
+          "description": "No emails generated; unable to validate email subject format and ticket references.",
+          "affected_entities": {
+            "email_count": 0
+          },
+          "suggested_remediation": "Generate emails that reference tickets to check compliance with email subject requirements."
+        },
+        {
+          "category": "business_rules",
+          "description": "No tickets with 'Done' status; unable to validate code review comments.",
+          "affected_entities": {
+            "ticket_count": 0
+          },
+          "suggested_remediation": "Ensure at least one ticket is in 'Done' status with appropriate comments."
+        },
+        {
+          "category": "data_quality",
+          "description": "No data generated; unable to check for timeline consistency, content realism, and determinism.",
+          "affected_entities": {
+            "person_count": 10,
+            "ticket_count": 0,
+            "email_count": 0
+          },
+          "suggested_remediation": "Generate a dataset with at least one ticket and one email for consistency validation."
+        },
+        {
+          "category": "volume_validation",
+          "description": "Ticket count is zero, which is below the configured range.",
+          "affected_entities": {
+            "ticket_count": 0,
+            "email_count": 0
+          },
+          "suggested_remediation": "Generate tickets to meet the required count."
+        }
+      ],
+      "warnings": [],
+      "ticket_count": 0,
+      "email_count": 0,
+      "person_count": 10
+    }
+  }
+}

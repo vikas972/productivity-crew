@@ -1,0 +1,21 @@
+=== VALIDATION ERROR ===
+Timestamp: 2025-08-10T19:54:24.733655
+Step: ticket_generation
+Data Type: Ticket
+Error: 4 validation errors for Ticket
+comments.0.at
+  Field required [type=missing, input_value={'body': 'Are we includin...'author_id': 'PER-0001'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+comments.1.at
+  Field required [type=missing, input_value={'body': 'Working on defi...'author_id': 'PER-0004'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+comments.2.at
+  Field required [type=missing, input_value={'body': 'Great job, UX l...'author_id': 'PER-0002'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+comments.3.at
+  Field required [type=missing, input_value={'body': 'Confirmation of...'author_id': 'PER-0001'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+==================================================
+
+=== RAW DATA THAT FAILED ===
+{'ticket_id': 'PAY-0006', 'project_id': 'PROJ-PAY', 'epic_id': 'EPIC-001', 'type': 'Story', 'title': 'Implement User Onboarding for New Payment System', 'description': 'Create a user-friendly onboarding process for the new payment system. Acceptance Criteria: 1. User can complete onboarding in less than 5 minutes. 2. Onboarding must accommodate different user types.', 'priority': 'Medium', 'story_points': 5, 'reporter_id': 'user1', 'assignee_id': 'user4', 'status_timeline': ['Backlog', 'To Do', 'In Progress', 'Code Review', 'Testing', 'Done'], 'comments': [{'author': 'user1', 'timestamp': '2025-07-01', 'text': 'Are we including tutorials in the onboarding?'}, {'author': 'user4', 'timestamp': '2025-07-02', 'text': 'Working on defining steps, progress feels good.'}, {'author': 'user2', 'timestamp': '2025-07-05', 'text': 'Great job, UX looks promising.'}, {'author': 'user1', 'timestamp': '2025-07-06', 'text': 'Confirmation of successful deployment.'}], 'attachments': ['onboarding_flow_diagram.png']}

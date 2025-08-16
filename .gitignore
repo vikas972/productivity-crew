@@ -80,7 +80,6 @@ Thumbs.db
 # Project specific
 out/
 .checkpoints/
-debug_logs/
 *.log
 temp/
 tmp/

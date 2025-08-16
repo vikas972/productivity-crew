@@ -1,0 +1,45 @@
+=== VALIDATION ERROR ===
+Timestamp: 2025-08-10T21:45:00.671663
+Step: ticket_generation
+Data Type: Ticket
+Error: 12 validation errors for Ticket
+ticket_id
+  Field required [type=missing, input_value={'date': '2025-07-15', 'c...ed.', 'attachments': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+project_id
+  Field required [type=missing, input_value={'date': '2025-07-15', 'c...ed.', 'attachments': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+type
+  Field required [type=missing, input_value={'date': '2025-07-15', 'c...ed.', 'attachments': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+title
+  Field required [type=missing, input_value={'date': '2025-07-15', 'c...ed.', 'attachments': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+description
+  Field required [type=missing, input_value={'date': '2025-07-15', 'c...ed.', 'attachments': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+priority
+  Field required [type=missing, input_value={'date': '2025-07-15', 'c...ed.', 'attachments': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+reporter_id
+  Field required [type=missing, input_value={'date': '2025-07-15', 'c...ed.', 'attachments': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+assignee_id
+  Field required [type=missing, input_value={'date': '2025-07-15', 'c...ed.', 'attachments': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+status_timeline
+  Field required [type=missing, input_value={'date': '2025-07-15', 'c...ed.', 'attachments': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+comments
+  Field required [type=missing, input_value={'date': '2025-07-15', 'c...ed.', 'attachments': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+date
+  Extra inputs are not permitted [type=extra_forbidden, input_value='2025-07-15', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+comment
+  Extra inputs are not permitted [type=extra_forbidden, input_value='Successfully deployed an...ng working as expected.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+==================================================
+
+=== RAW DATA THAT FAILED ===
+{'date': '2025-07-15', 'comment': 'Successfully deployed and confirmed payment processing working as expected.'}

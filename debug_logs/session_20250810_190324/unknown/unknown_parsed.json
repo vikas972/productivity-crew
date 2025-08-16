@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-08-10T19:05:16.029840",
+  "step": "unknown",
+  "agent": "unknown",
+  "parsed_type": "<class 'dict'>",
+  "parsed_data": {
+    "passed": false,
+    "errors": [],
+    "warnings": [],
+    "ticket_count": 0,
+    "email_count": 0,
+    "person_count": 8,
+    "details": {
+      "referential_integrity": [],
+      "business_rules": [
+        {
+          "category": "business_rules",
+          "description": "No tickets exist to reference in emails or other elements.",
+          "affected_entities": {
+            "ticket_count": 0,
+            "project_count": 0,
+            "epic_count": 0
+          },
+          "suggested_remediation": "Generate at least one ticket to enable proper referencing in the dataset."
+        }
+      ],
+      "data_quality": [],
+      "schema_compliance": [],
+      "volume_validation": [
+        {
+          "category": "volume_validation",
+          "description": "No tickets generated. Ticket count is below the configured range.",
+          "affected_entities": {
+            "ticket_count": 0
+          },
+          "suggested_remediation": "Ensure that ticket generation logic is active and create valid tickets."
+        },
+        {
+          "category": "volume_validation",
+          "description": "Email volume is zero, which does not meet volume configurations.",
+          "affected_entities": {
+            "email_count": 0
+          },
+          "suggested_remediation": "Implement email generation process to produce test emails."
+        }
+      ]
+    }
+  }
+}

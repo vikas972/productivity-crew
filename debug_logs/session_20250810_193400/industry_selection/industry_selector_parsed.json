@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-08-10T19:34:15.512956",
+  "step": "industry_selection",
+  "agent": "industry_selector",
+  "parsed_type": "<class 'dict'>",
+  "parsed_data": {
+    "name": "VistaraPay Gateway",
+    "description": "A robust digital payment gateway solution enabling SMEs to seamlessly accept payments across various channels including credit cards, UPI, and net banking. This solution emphasizes low transaction fees and high conversion rates."
+  }
+}

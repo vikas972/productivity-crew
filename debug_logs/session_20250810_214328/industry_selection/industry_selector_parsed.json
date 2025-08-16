@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-08-10T21:43:44.217486",
+  "step": "industry_selection",
+  "agent": "industry_selector",
+  "parsed_type": "<class 'dict'>",
+  "parsed_data": {
+    "name": "VistaraPay Analytics",
+    "description": "A data-driven dashboard that provides SMEs with insights into payment trends, customer behavior, and sales performance to help them make informed business decisions.",
+    "features": [
+      "Data visualization",
+      "Custom reports",
+      "Predictive analytics"
+    ]
+  }
+}

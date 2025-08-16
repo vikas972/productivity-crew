@@ -1,0 +1,198 @@
+=== LLM RAW OUTPUT ===
+Timestamp: 2025-08-10T19:35:37.521540
+Step: ticket_generation
+Agent: ticket_factory
+Output Type: <class 'str'>
+==================================================
+
+```json
+[
+    {
+        "ticket_id": "PAY-0001",
+        "project_id": "PROJ-PAY",
+        "epic_id": null,
+        "type": "Story",
+        "title": "Implement Payment Gateway Integration",
+        "description": "Integrate the new payment gateway API into our existing payment system. Ensure that all payment methods (credit card, debit card, PayPal) are supported.\n\nAcceptance Criteria:\n- Successful integration documented.\n- Payment methods tested and confirmed functional.\n- Payment flow handles both successful and failed transactions correctly.",
+        "priority": "High",
+        "story_points": 5,
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-001",
+        "status": "Done",
+        "status_timeline": ["Backlog", "To Do", "In Progress", "Code Review", "Testing", "Done"],
+        "comments": [
+            "Can we clarify which payment methods will be included?",
+            "Starting work on the integration this week.",
+            "Code review completed. LGTM.",
+            "Testing performed. All payment methods function as expected."
+        ],
+        "attachments": ["gateway_integration_diagram.png"]
+    },
+    {
+        "ticket_id": "PAY-0002",
+        "project_id": "PROJ-PAY",
+        "epic_id": null,
+        "type": "Bug",
+        "title": "Fix KYC Verification Failure",
+        "description": "The KYC verification fails intermittently for certain users. We need to investigate the root cause and implement a fix.\n\nAcceptance Criteria:\n- Issue identified and documented.\n- Fix deployed and tested.",
+        "priority": "Critical",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-002",
+        "status": "In Progress",
+        "status_timeline": ["Backlog", "To Do", "In Progress"],
+        "comments": [
+            "What specific user scenarios are failing?",
+            "I've found a potential issue with the request payload. Investigating further."
+        ],
+        "attachments": ["kyc_error_log.txt"]
+    },
+    {
+        "ticket_id": "PAY-0003",
+        "project_id": "PROJ-PAY",
+        "epic_id": null,
+        "type": "Task",
+        "title": "Update API Rate Limiting Strategy",
+        "description": "Review and update our current API rate limiting strategy to improve performance and prevent abuse, focusing on critical endpoints.\n\nAcceptance Criteria:\n- New strategy documented.\n- Implemented in the API gateway.",
+        "priority": "Medium",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-003",
+        "status": "To Do",
+        "status_timeline": ["Backlog", "To Do"],
+        "comments": [
+            "What are the parameters for the new rate limits?",
+            "Planning to finalize the strategy this week."
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0004",
+        "project_id": "PROJ-PAY",
+        "epic_id": null,
+        "type": "Story",
+        "title": "Develop Enhanced Transaction Monitoring",
+        "description": "Create an enhanced monitoring system for transactions to detect and alert for any fraudulent activities.\n\nAcceptance Criteria:\n- Transactions monitored in real-time.\n- Alerts triggered based on predefined fraud patterns.",
+        "priority": "Medium",
+        "story_points": 8,
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-001",
+        "status": "Done",
+        "status_timeline": ["Backlog", "To Do", "In Progress", "Code Review", "Testing", "Done"],
+        "comments": [
+            "What key fraud indicators should we implement?",
+            "Code review is done, please check for any edge cases.",
+            "System successfully deployed and monitored 1000 transactions with no issues."
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0005",
+        "project_id": "PROJ-PAY",
+        "epic_id": null,
+        "type": "Bug",
+        "title": "Resolve Payment Timeout Issue",
+        "description": "Users experiencing timeouts when processing payments under high load. Investigate server performance and optimize.\n\nAcceptance Criteria:\n- Identified performance bottlenecks.\n- Applied optimizations.",
+        "priority": "High",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-002",
+        "status": "Testing",
+        "status_timeline": ["Backlog", "To Do", "In Progress", "Code Review", "Testing"],
+        "comments": [
+            "How many users are we testing under?",
+            "We implemented optimizations, now under load testing."
+        ],
+        "attachments": ["performance_test_log.txt"]
+    },
+    {
+        "ticket_id": "PAY-0006",
+        "project_id": "PROJ-PAY",
+        "epic_id": null,
+        "type": "Spike",
+        "title": "Research New Security Compliance Regulations",
+        "description": "Investigate upcoming security compliance regulations and their impact on our payments processing.\n\nAcceptance Criteria:\n- Report generated summarizing findings.",
+        "priority": "Medium",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-003",
+        "status": "Done",
+        "status_timeline": ["Backlog", "To Do", "In Progress", "Done"],
+        "comments": [
+            "When is the deadline for the compliance changes?",
+            "Finished research and documented findings. Compliance impact looks significant."
+        ],
+        "attachments": ["compliance_report.pdf"]
+    },
+    {
+        "ticket_id": "PAY-0007",
+        "project_id": "PROJ-PAY",
+        "epic_id": null,
+        "type": "Task",
+        "title": "Improve User Onboarding Process",
+        "description": "Revamp user onboarding to provide a smoother and quicker registration for new users.\n\nAcceptance Criteria:\n- New onboarding flow created.\n- User feedback gathered.",
+        "priority": "Low",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-001",
+        "status": "To Do",
+        "status_timeline": ["Backlog", "To Do"],
+        "comments": [
+            "What are the current pain points in onboarding?",
+            "Ready to start gathering feedback after the current register flow."
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0008",
+        "project_id": "PROJ-PAY",
+        "epic_id": null,
+        "type": "Story",
+        "title": "Implement Security Audit Logging",
+        "description": "When users take actions that impact payment systems, we need to log these actions securely for audit purposes.\n\nAcceptance Criteria:\n- All critical actions logged with timestamps and user identifiers.",
+        "priority": "High",
+        "story_points": 3,
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-002",
+        "status": "In Progress",
+        "status_timeline": ["Backlog", "To Do", "In Progress"],
+        "comments": [
+            "How deep do we want the logging to go?",
+            "Currently working on logging implementation. Expecting to finish by end of the week."
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0009",
+        "project_id": "PROJ-PAY",
+        "epic_id": null,
+        "type": "Bug",
+        "title": "Fix Duplicate Transaction Errors",
+        "description": "The system is processing duplicate transactions under certain conditions. We need to find the source and fix it.\n\nAcceptance Criteria:\n- Issue identified.\n- Duplicate processing avoided.",
+        "priority": "High",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-001",
+        "status": "To Do",
+        "status_timeline": ["Backlog", "To Do"],
+        "comments": [
+            "What specific conditions lead to duplication?",
+            "Working on reproducing the bug to confirm."
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0010",
+        "project_id": "PROJ-PAY",
+        "epic_id": null,
+        "type": "Task",
+        "title": "Prepare Deployment Scripts",
+        "description": "Create scripts for the automated deployment of the payment system updates to production.\n\nAcceptance Criteria:\n- Scripts reviewed and tested.",
+        "priority": "Medium",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-003",
+        "status": "Testing",
+        "status_timeline": ["Backlog", "To Do", "In Progress", "Testing"],
+        "comments": [
+            "Should we include rollback options in the scripts?",
+            "Scripts tested successfully in staging, preparing for production."
+        ],
+        "attachments": []
+    }
+]
+
+```

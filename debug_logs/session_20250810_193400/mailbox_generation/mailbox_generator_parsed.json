@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-08-10T19:36:11.062548",
+  "step": "mailbox_generation",
+  "agent": "mailbox_generator",
+  "parsed_type": "<class 'dict'>",
+  "parsed_data": {
+    "subject": "How do I access transaction logs?",
+    "body": "Hello!\n\nCan someone guide me on how to access the transaction logs? I believe I need to check them for the pending transactions.\n\nAppreciate your help!\n\nCheers,\nJunior Engineer",
+    "timestamp": "2025-07-05 09:30:00 IST"
+  }
+}

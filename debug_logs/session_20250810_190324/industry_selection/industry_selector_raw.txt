@@ -1,0 +1,72 @@
+=== LLM RAW OUTPUT ===
+Timestamp: 2025-08-10T19:03:35.868580
+Step: industry_selection
+Agent: industry_selector
+Output Type: <class 'str'>
+==================================================
+
+```python
+{
+    "products": [
+        {
+            "name": "VistaraPay Gateway",
+            "description": "A robust online payment gateway enabling SMEs to accept payments via multiple channels including UPI, credit/debit cards, and e-wallets."
+        },
+        {
+            "name": "VistaraPay Analytics",
+            "description": "An advanced analytics dashboard that helps SMEs track payment trends, customer behavior, and financial insights to drive better business decisions."
+        },
+        {
+            "name": "VistaraPay Fraud Detection",
+            "description": "A real-time fraud detection system utilizing AI and machine learning to protect transactions and minimize risk for SMEs."
+        },
+        {
+            "name": "VistaraPay Merchant Dashboard",
+            "description": "An intuitive dashboard for merchants to manage their transactions, settlements, and disputes efficiently."
+        },
+        {
+            "name": "VistaraPay Lending Solutions",
+            "description": "A suite of financial products offering small business loans to SMEs based on transaction data and business performance."
+        }
+    ],
+    "constraints": [
+        "Limited tech infrastructure in many SMEs, leading to integration issues.",
+        "High levels of fraud and payment-related risks which necessitate robust security measures.",
+        "Intense competition from both established banks and new entrants in the fintech space.",
+        "Regulatory adherence to RBI guidelines, which can change frequently and require constant updates.",
+        "Difficulty in gaining the trust of SMEs who may prefer traditional banking and are wary of new technologies."
+    ],
+    "tech_stack": [
+        "Cloud infrastructure (AWS, Azure) for scalability and reliability.",
+        "Microservices architecture for flexibility and easier management.",
+        "API-driven development to facilitate integrations with various payment methods.",
+        "Blockchain technology for enhanced security and transparency.",
+        "Data analytics tools (such as Tableau or Power BI) integrated with machine learning algorithms for predictive insights."
+    ],
+    "communication_style": {
+        "tone": "Concise and data-driven; focus on facts and statistics that resonate with the SME audience.",
+        "language": "Use clear, professional, and straightforward language. Avoid jargon unless it is commonly understood.",
+        "supportiveness": "Maintain an understanding and helpful tone, emphasizing our commitment to assist SMEs in navigating digital payments.",
+        "response time": "Aim for quick turnarounds on customer inquiries, ideally within 24 hours.",
+        "content types": "Utilize infographics, case studies, and short videos that demonstrate product value and ease of use."
+    },
+    "target_customers": [
+        {
+            "segment": "Small Enterprises",
+            "description": "Businesses with a turnover of up to ₹10 crore looking to digitize their payment processes."
+        },
+        {
+            "segment": "Medium Enterprises",
+            "description": "Businesses with a turnover ranging from ₹10 crore to ₹100 crore, interested in advanced analytics and business insights."
+        },
+        {
+            "segment": "Startup Ecosystem",
+            "description": "Tech-savvy startups who require flexible payment solutions that can scale with their growth."
+        },
+        {
+            "segment": "E-commerce SMEs",
+            "description": "Online retailers seeking seamless integration of payment gateways with their platforms for better customer experience."
+        }
+    ]
+}
+```

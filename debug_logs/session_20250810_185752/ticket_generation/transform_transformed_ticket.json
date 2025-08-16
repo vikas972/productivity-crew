@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-08-10T18:59:28.098756",
+  "step": "ticket_generation",
+  "transformation": "transformed_ticket",
+  "before": {
+    "ticket_id": "PAY-0007",
+    "project_id": "PROJ-PAY",
+    "epic_id": null,
+    "type": "Bug",
+    "title": "Incorrect Tax Calculation in Checkout",
+    "description": "The tax is incorrectly calculated in the checkout process based on user location. Acceptance criteria: Must correct the calculation and ensure it is tested thoroughly.",
+    "priority": "Medium",
+    "reporter_id": "TL-002",
+    "assignee_id": "DEV-001",
+    "status_timeline": [
+      {
+        "status": "Backlog",
+        "date": "2025-07-01"
+      },
+      {
+        "status": "To Do",
+        "date": "2025-07-03"
+      },
+      {
+        "status": "In Progress",
+        "date": "2025-07-05"
+      },
+      {
+        "status": "Code Review",
+        "date": "2025-07-06"
+      },
+      {
+        "status": "Testing",
+        "date": "2025-07-10"
+      },
+      {
+        "status": "Done",
+        "date": "2025-07-12"
+      }
+    ],
+    "comments": [
+      {
+        "date": "2025-07-01",
+        "comment": "What tax rules are we currently applying?"
+      },
+      {
+        "date": "2025-07-04",
+        "comment": "Identified some misconfigurations in the tax tables. Fixing now."
+      },
+      {
+        "date": "2025-07-06",
+        "comment": "Reviewed the changes. Suggest additional tests for edge cases."
+      },
+      {
+        "date": "2025-07-11",
+        "comment": "Tested and the tax is calculated correctly now. All edge cases passed."
+      }
+    ],
+    "attachments": []
+  },
+  "after": {
+    "ticket_id": "PAY-0007",
+    "project_id": "PROJ-PAY",
+    "epic_id": null,
+    "type": "Bug",
+    "title": "Incorrect Tax Calculation in Checkout",
+    "description": "The tax is incorrectly calculated in the checkout process based on user location. Acceptance criteria: Must correct the calculation and ensure it is tested thoroughly.",
+    "priority": "Medium",
+    "reporter_id": "PER-0002",
+    "assignee_id": "PER-0001",
+    "status_timeline": [
+      {
+        "status": "Backlog",
+        "at": "2025-07-01 00:00:00"
+      },
+      {
+        "status": "To Do",
+        "at": "2025-07-03 00:00:00"
+      },
+      {
+        "status": "In Progress",
+        "at": "2025-07-05 00:00:00"
+      },
+      {
+        "status": "Code Review",
+        "at": "2025-07-06 00:00:00"
+      },
+      {
+        "status": "Testing",
+        "at": "2025-07-10 00:00:00"
+      },
+      {
+        "status": "Done",
+        "at": "2025-07-12 00:00:00"
+      }
+    ],
+    "comments": [
+      {
+        "body": "What tax rules are we currently applying?",
+        "at": "2025-07-01 00:00:00",
+        "author_id": "PER-0001"
+      },
+      {
+        "body": "Identified some misconfigurations in the tax tables. Fixing now.",
+        "at": "2025-07-04 00:00:00",
+        "author_id": "PER-0001"
+      },
+      {
+        "body": "Reviewed the changes. Suggest additional tests for edge cases.",
+        "at": "2025-07-06 00:00:00",
+        "author_id": "PER-0001"
+      },
+      {
+        "body": "Tested and the tax is calculated correctly now. All edge cases passed.",
+        "at": "2025-07-11 00:00:00",
+        "author_id": "PER-0001"
+      }
+    ],
+    "attachments": []
+  }
+}

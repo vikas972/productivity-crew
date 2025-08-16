@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-08-10T18:59:44.953555",
+  "step": "mailbox_generation",
+  "transformation": "raw_email_senior_engineer_1",
+  "before": {
+    "subject": "Code review for [PAY-002]",
+    "timestamp": "2025-07-04T09:45:00+05:30",
+    "content": "All,\n\nI've completed the code review for the changes related to ticket [PAY-002]. The implementation looks solid. I\u2019ve attached the logs and comments for your reference.\n\nBest,\nSenior Engineer 1",
+    "attachment": "log_file_PAY-002.txt"
+  },
+  "after": "None"
+}

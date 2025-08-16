@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-08-10T19:05:09.196969",
+  "step": "mailbox_generation",
+  "transformation": "raw_email_manager_1",
+  "before": {
+    "subject": "Urgent: Incident reported regarding payment security",
+    "body": "Dear Team,\n\nWe received an incident report concerning potential security vulnerabilities in our payment processing. I want all hands on this to ensure we handle it promptly. More instructions to follow.\n\nThanks,\nManager 1",
+    "timestamp": "2025-07-06 20:00:00"
+  },
+  "after": "None"
+}

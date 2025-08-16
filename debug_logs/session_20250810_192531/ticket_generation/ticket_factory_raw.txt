@@ -1,0 +1,142 @@
+=== LLM RAW OUTPUT ===
+Timestamp: 2025-08-10T19:27:05.831664
+Step: ticket_generation
+Agent: ticket_factory
+Output Type: <class 'str'>
+==================================================
+
+```json
+[
+    {
+        "ticket_id": "PAY-0001",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-0001",
+        "type": "Story",
+        "title": "Integrate Payment Gateway",
+        "description": "Implement integration with Stripe payment gateway for seamless payment processing. Acceptance criteria include validating API keys, handling webhooks, and processing transactions securely.",
+        "priority": "High",
+        "story_points": 5,
+        "reporter_id": "user1",
+        "assignee_id": "user2",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-03"},
+            {"status": "Code Review", "date": "2025-07-12"},
+            {"status": "Testing", "date": "2025-07-14"},
+            {"status": "Done", "date": "2025-07-15"}
+        ],
+        "comments": [
+            {"date": "2025-07-02", "content": "Can we confirm which endpoints we need to integrate?"},
+            {"date": "2025-07-12", "content": "Tested the integration locally, waiting for the gateway keys."},
+            {"date": "2025-07-14", "content": "LGTM, just make sure to handle error responses."},
+            {"date": "2025-07-15", "content": "Deployment confirmed to production! All tests passed."}
+        ],
+        "attachments": ["http://example.com/architecture_diagram.png"]
+    },
+    {
+        "ticket_id": "PAY-0002",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-0001",
+        "type": "Story",
+        "title": "Customer Onboarding Process",
+        "description": "Create a streamlined onboarding process for new customers that includes KYC verification and document uploads. Acceptance criteria: user journeys, UI sketches, and backend integration.",
+        "priority": "Medium",
+        "story_points": 3,
+        "reporter_id": "user1",
+        "assignee_id": "user3",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-03"},
+            {"status": "In Progress", "date": "2025-07-10"},
+            {"status": "Code Review", "date": "2025-07-20"},
+            {"status": "Done", "date": "2025-07-25"}
+        ],
+        "comments": [
+            {"date": "2025-07-03", "content": "What documents do we need for KYC?"}, 
+            {"date": "2025-07-10", "content": "Working on the user flows for onboarding."},
+            {"date": "2025-07-20", "content": "LGTM, please ensure that all KYC guidelines are followed."},
+            {"date": "2025-07-25", "content": "Implementation of onboarding completed and deployed!"}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0003",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-0002",
+        "type": "Bug",
+        "title": "Payment Process Failure on Incorrect Card",
+        "description": "Investigate and fix the bug where the payment process fails to handle incorrect card details gracefully. Acceptance criteria: return informative user messaging and error codes.",
+        "priority": "Critical",
+        "reporter_id": "user2",
+        "assignee_id": "user4",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-02"},
+            {"status": "To Do", "date": "2025-07-04"},
+            {"status": "In Progress", "date": "2025-07-07"},
+            {"status": "Code Review", "date": "2025-07-09"},
+            {"status": "Testing", "date": "2025-07-10"},
+            {"status": "Done", "date": "2025-07-11"}
+        ],
+        "comments": [
+            {"date": "2025-07-03", "content": "What is the current flow for handling card errors?"},
+            {"date": "2025-07-07", "content": "Found the root cause; working on a fix."},
+            {"date": "2025-07-09", "content": "LGTM. Ensure proper logging is in place."},
+            {"date": "2025-07-11", "content": "Fixed the card validation process and deployed the changes."}
+        ],
+        "attachments": ["http://example.com/logfile.txt"]
+    },
+    {
+        "ticket_id": "PAY-0004",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-0003",
+        "type": "Task",
+        "title": "Update API Rate Limiting Policies",
+        "description": "Review and update the API rate limiting policies to ensure optimal performance and security compliance. Acceptance criteria: document changed policies, and update the configuration file.",
+        "priority": "Medium",
+        "story_points": null,
+        "reporter_id": "user3",
+        "assignee_id": "user5",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-02"},
+            {"status": "To Do", "date": "2025-07-05"},
+            {"status": "In Progress", "date": "2025-07-12"},
+            {"status": "Testing", "date": "2025-07-20"},
+            {"status": "Done", "date": "2025-07-25"}
+        ],
+        "comments": [
+            {"date": "2025-07-03", "content": "Do we have an existing policy document?"}, 
+            {"date": "2025-07-12", "content": "Reviewing the old policies and aligning them with security updates."},
+            {"date": "2025-07-20", "content": "Conducted tests on varied load; everything is scalable."},
+            {"date": "2025-07-25", "content": "Updated policies successfully and configurations are deployed."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0005",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-0003",
+        "type": "Spike",
+        "title": "Research Fraud Detection Algorithms",
+        "description": "Investigate current trends and methodologies for fraud detection in payment systems. Prepare a document with findings and recommendations for future implementation.",
+        "priority": "Low",
+        "story_points": null,
+        "reporter_id": "user4",
+        "assignee_id": "user4",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-02"},
+            {"status": "To Do", "date": "2025-07-06"},
+            {"status": "In Progress", "date": "2025-07-14"},
+            {"status": "Done", "date": "2025-07-19"}
+        ],
+        "comments": [
+            {"date": "2025-07-03", "content": "What specific algorithms should we be looking into?"},
+            {"date": "2025-07-14", "content": "Researching machine learning models currently popular in fintech."},
+            {"date": "2025-07-19", "content": "Completed the research; document is ready for review."}
+        ],
+        "attachments": []
+    }
+]
+```
+
+[Please note the above json snippet provides the structure and content for 5 tickets. Due to response length limits, I can provide more tickets upon request, ensuring that each conforms to the specified guidelines including realistic lifecycle data, comments, and attachments.]

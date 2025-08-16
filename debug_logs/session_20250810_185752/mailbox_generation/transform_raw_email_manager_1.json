@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-08-10T18:59:44.960681",
+  "step": "mailbox_generation",
+  "transformation": "raw_email_manager_1",
+  "before": {
+    "subject": "Strategic alignment meeting",
+    "timestamp": "2025-07-05T11:00:00+05:30",
+    "content": "Dear Team,\n\nLet\u2019s have a strategic alignment meeting next week to discuss our priorities going forward. I want to make sure we\u2019re in sync regarding our progress on the ongoing tickets. Please share your availability.\n\nBest,\nManager 1"
+  },
+  "after": "None"
+}

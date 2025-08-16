@@ -1,0 +1,67 @@
+=== LLM RAW OUTPUT ===
+Timestamp: 2025-08-10T18:37:48.800062
+Step: mailbox_generation
+Agent: mailbox_generator
+Output Type: <class 'str'>
+==================================================
+
+{
+    'junior_engineer_1': [
+        MailMessage(
+            subject="Quick question about [PAY-101]",
+            body="Hi Team,\n\nI hope you're doing well! I have a quick question regarding the [PAY-101] ticket. Could someone clarify the expected output format for the transaction logs? I want to ensure my implementation aligns with the requirements.\n\nThanks!\nBest,\nJunior Engineer 1",
+            timestamp="2025-07-01T10:05:00+05:30"
+        ),
+        MailMessage(
+            subject="Need help with a bug [PAY-102]",
+            body="Hey everyone,\n\nI ran into a bug while working on [PAY-102]. The transaction fails to process under certain conditions. Has anyone else encountered this issue? I’d appreciate any insights!\n\nThanks a lot!\nJunior Engineer 1",
+            timestamp="2025-07-02T11:15:00+05:30"
+        ),
+        MailMessage(
+            subject="How do I validate payment methods?",
+            body="Hi Team,\n\nCould someone please guide me on how to validate payment methods before processing? I’ve looked through the documentation but am still unsure. Any pointers would be great!\n\nCheers,\nJunior Engineer 1",
+            timestamp="2025-07-03T14:20:00+05:30"
+        )
+    ],
+    'senior_engineer_1': [
+        MailMessage(
+            subject="Recommendation for [PAY-103] implementation",
+            body="Hi Team,\n\nRegarding the [PAY-103] ticket, I recommend using the latest Payment Gateway API as it provides the features we need. I’ll start working on the integration and share the code by the end of the week.\n\nBest,\nSenior Engineer 1",
+            timestamp="2025-07-01T09:00:00+05:30"
+        ),
+        MailMessage(
+            subject="Code review for [PAY-101]",
+            body="Hi Team,\n\nI’ve completed the implementation for [PAY-101]. Please find the attached code snippet.\n\n```python\n# Sample code for processing transactions\ntransactions = process_payments(data)\n```\n\nLet me know your thoughts!\n\nCheers,\nSenior Engineer 1",
+            timestamp="2025-07-02T15:30:00+05:30"
+        )
+    ],
+    'team_lead_1': [
+        MailMessage(
+            subject="Sprint planning for next week",
+            body="Hello Team,\n\nI’d like to schedule a sprint planning session for next week. Please reply with your available slots. We’ll discuss the tickets [PAY-101], [PAY-102], and [PAY-104] during this time.\n\nBest,\nTeam Lead 1",
+            timestamp="2025-07-01T11:00:00+05:30"
+        ),
+        MailMessage(
+            subject="Team alignment on [PAY-104]",
+            body="Hi everyone,\n\nWe need to ensure alignment on [PAY-104]. Let’s meet today at 3 PM to go over the implementation strategy and delegate tasks. Please come prepared with your updates.\n\nThanks!\nTeam Lead 1",
+            timestamp="2025-07-02T10:00:00+05:30"
+        )
+    ],
+    'manager_1': [
+        MailMessage(
+            subject="Resource allocation for next quarter",
+            body="Hello Team,\n\nWe need to discuss resource allocation for next quarter as we prepare for upcoming projects, especially based on the tickets. Please gather your inputs for our meeting on July 5th.\n\nBest,\nManager 1",
+            timestamp="2025-07-01T09:30:00+05:30"
+        ),
+        MailMessage(
+            subject="Strategic alignment on team objectives",
+            body="Hi Team,\n\nI want to ensure we are aligned on our strategic objectives moving forward. Please review the current project status and be ready to discuss priorities in our next standup.\n\nThanks!\nManager 1",
+            timestamp="2025-07-03T09:00:00+05:30"
+        ),
+        MailMessage(
+            subject="Regarding HR policies and team training",
+            body="Hi Team,\n\nPlease find attached the updated HR policies and upcoming training programs. Make sure to review them with your teams. Let me know if you have any questions.\n\nBest,\nManager 1",
+            timestamp="2025-07-04T10:00:00+05:30"
+        )
+    ]
+}

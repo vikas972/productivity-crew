@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-08-10T19:54:24.733306",
+  "step": "ticket_generation",
+  "transformation": "raw_ticket",
+  "before": {
+    "ticket_id": "PAY-0006",
+    "project_id": "PROJ-PAY",
+    "epic_id": "EPIC-001",
+    "type": "Story",
+    "title": "Implement User Onboarding for New Payment System",
+    "description": "Create a user-friendly onboarding process for the new payment system. Acceptance Criteria: 1. User can complete onboarding in less than 5 minutes. 2. Onboarding must accommodate different user types.",
+    "priority": "Medium",
+    "story_points": 5,
+    "reporter_id": "user1",
+    "assignee_id": "user4",
+    "status_timeline": [
+      "Backlog",
+      "To Do",
+      "In Progress",
+      "Code Review",
+      "Testing",
+      "Done"
+    ],
+    "comments": [
+      {
+        "author": "user1",
+        "timestamp": "2025-07-01",
+        "text": "Are we including tutorials in the onboarding?"
+      },
+      {
+        "author": "user4",
+        "timestamp": "2025-07-02",
+        "text": "Working on defining steps, progress feels good."
+      },
+      {
+        "author": "user2",
+        "timestamp": "2025-07-05",
+        "text": "Great job, UX looks promising."
+      },
+      {
+        "author": "user1",
+        "timestamp": "2025-07-06",
+        "text": "Confirmation of successful deployment."
+      }
+    ],
+    "attachments": [
+      "onboarding_flow_diagram.png"
+    ]
+  },
+  "after": "None"
+}

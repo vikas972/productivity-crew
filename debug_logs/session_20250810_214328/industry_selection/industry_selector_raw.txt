@@ -1,0 +1,80 @@
+=== LLM RAW OUTPUT ===
+Timestamp: 2025-08-10T21:43:44.217486
+Step: industry_selection
+Agent: industry_selector
+Output Type: <class 'str'>
+==================================================
+
+```python
+{
+    "products": [
+        {
+            "name": "VistaraPay Gateway",
+            "description": "A seamless and secure payment gateway enabling SMEs to accept digital payments across multiple channels including UPI, cards, and net banking with low transaction fees.",
+            "features": ["Multi-channel support", "Real-time settlements", "Customizable UI"]
+        },
+        {
+            "name": "VistaraPay Analytics",
+            "description": "A data-driven dashboard that provides SMEs with insights into payment trends, customer behavior, and sales performance to help them make informed business decisions.",
+            "features": ["Data visualization", "Custom reports", "Predictive analytics"]
+        },
+        {
+            "name": "VistaraPay Loan Marketplace",
+            "description": "A marketplace providing SMEs access to tailored financial products and services, connecting vendors with local and national lenders.",
+            "features": ["Instant eligibility check", "Customized loan offers", "Guided application process"]
+        },
+        {
+            "name": "VistaraPay One-Click Payments",
+            "description": "A solution that simplifies the checkout process for customers with a single-click payment option, increasing conversion rates for SMEs.",
+            "features": ["Tokenization for security", "Customer wallet integration", "Email/SMS payment links"]
+        },
+        {
+            "name": "VistaraPay Compliance Toolkit",
+            "description": "A set of tools that ensures SMEs remain compliant with RBI guidelines and other regulatory standards in digital payments.",
+            "features": ["Ongoing compliance updates", "Audit support", "Document storage solutions"]
+        }
+    ],
+    "constraints": [
+        "Regulatory Compliance: Adhering to RBI regulations and guidelines can be complex and time-consuming for SMEs.",
+        "Security Concerns: Trust and security are paramount in digital payments, with SMEs needing robust measures to prevent fraud.",
+        "Integration Challenges: SMEs often use various legacy systems requiring seamless integration with VistaraPay solutions.",
+        "Limited Technology Infrastructure: Many SMEs may lack the advanced technology to adopt digital payment solutions effectively.",
+        "Market Competition: The fintech sector is rapidly evolving with many players offering similar products."
+    ],
+    "tech_stack": [
+        "Front-end: ReactJS, Angular",
+        "Back-end: Node.js, Python (Django)",
+        "Database: PostgreSQL, MongoDB",
+        "Cloud Services: AWS, Azure",
+        "Payment Processing: Stripe API, Razorpay, PayU"
+    ],
+    "communication_style": {
+        "tone": "Concise and supportive, focusing on data-driven insights, and practical solutions.",
+        "language": "Avoid jargon; use clear and straightforward language that resonates with the SME audience.",
+        "formats": "Prefer bullet points for clarity; use visuals in reports and presentations to enhance understanding.",
+        "responses": "Be prompt and encouraging, emphasizing how our solutions address customer pain points."
+    },
+    "target_customers": [
+        {
+            "segment": "Small Enterprises",
+            "characteristics": "Typically have limited resources, are looking for cost-effective payment solutions, and prioritize ease of use."
+        },
+        {
+            "segment": "Medium Enterprises",
+            "characteristics": "Possess a growing customer base with potential for increased digital transactions; focus on scalability and integration."
+        },
+        {
+            "segment": "Startup Businesses",
+            "characteristics": "Innovative and tech-savvy; eager to explore digital payment options and willing to adopt novel solutions quickly."
+        },
+        {
+            "segment": "Service Providers",
+            "characteristics": "Includes freelancers and consultants who need reliable invoicing and payment collection methods."
+        },
+        {
+            "segment": "Retail Outlets",
+            "characteristics": "Brick-and-mortar stores looking to transition partially to online sales while simplifying in-store payment processes."
+        }
+    ]
+}
+```

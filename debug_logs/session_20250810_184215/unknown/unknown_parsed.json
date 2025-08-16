@@ -1,0 +1,94 @@
+{
+  "timestamp": "2025-08-10T18:46:40.882764",
+  "step": "unknown",
+  "agent": "unknown",
+  "parsed_type": "<class 'dict'>",
+  "parsed_data": {
+    "passed": false,
+    "errors": [
+      {
+        "category": "referential_integrity",
+        "description": "Missing references for ticket assignee_ids and reporter_ids.",
+        "affected_entities": {
+          "assignee_ids": [],
+          "reporter_ids": []
+        },
+        "suggested_remediation": "Ensure all assignee_ids and reporter_ids reference valid person IDs."
+      },
+      {
+        "category": "business_rules",
+        "description": "Ticket IDs in subjects do not match refs.ticket_ids.",
+        "affected_entities": {
+          "ticket_subjects": [],
+          "refs": []
+        },
+        "suggested_remediation": "Ensure email subjects contain valid ticket references that align with the refs.ticket_ids."
+      },
+      {
+        "category": "business_rules",
+        "description": "Tickets with 'Done' status lack code review comments.",
+        "affected_entities": {
+          "done_tickets": [],
+          "comments": []
+        },
+        "suggested_remediation": "Add at least one code review comment to each ticket with a 'Done' status."
+      },
+      {
+        "category": "business_rules",
+        "description": "Manager inboxes lack diversity in email categories; less than 20% non-project emails.",
+        "affected_entities": {
+          "managers": [],
+          "non_project_emails": []
+        },
+        "suggested_remediation": "Add more non-project category emails to managers\u2019 inboxes."
+      },
+      {
+        "category": "data_quality",
+        "description": "Non-chronological status transitions for tickets.",
+        "affected_entities": {
+          "tickets": []
+        },
+        "suggested_remediation": "Re-order ticket status transitions chronologically."
+      },
+      {
+        "category": "data_quality",
+        "description": "Extras emails outside of business hours exceed 15%.",
+        "affected_entities": {
+          "out_of_hours_emails": [],
+          "justifications": []
+        },
+        "suggested_remediation": "Review and validate context for after-hours emails; minimize non-business hours emails."
+      },
+      {
+        "category": "data_quality",
+        "description": "Spam category exceeds 5% of total emails per person.",
+        "affected_entities": {
+          "persons": [],
+          "spam_emails": []
+        },
+        "suggested_remediation": "Limit spam emails sent to fewer than 5% of total emails per person."
+      }
+    ],
+    "warnings": [
+      {
+        "category": "data_quality",
+        "description": "Potential overlapping of sprint dates, requires review.",
+        "affected_entities": {
+          "sprints": []
+        },
+        "suggested_remediation": "Examine sprint dates for overlaps and adjust as necessary."
+      },
+      {
+        "category": "data_quality",
+        "description": "Comments do not align with respective ticket statuses.",
+        "affected_entities": {
+          "comments": []
+        },
+        "suggested_remediation": "Ensure comments reflect the ticket status at the time of creation."
+      }
+    ],
+    "ticket_count": 20,
+    "email_count": 0,
+    "person_count": 10
+  }
+}

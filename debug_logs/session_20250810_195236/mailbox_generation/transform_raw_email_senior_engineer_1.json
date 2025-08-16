@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-08-10T19:54:43.923180",
+  "step": "mailbox_generation",
+  "transformation": "raw_email_senior_engineer_1",
+  "before": {
+    "subject": "Code review for refund workflow",
+    "body": "Please find attached the code for the refund workflow implementation. I\u2019d appreciate your reviews by Thursday evening. Thanks!",
+    "timestamp": "2025-07-03T14:00:00+05:30",
+    "attachments": [
+      "refund_workflow_code.py"
+    ]
+  },
+  "after": "None"
+}

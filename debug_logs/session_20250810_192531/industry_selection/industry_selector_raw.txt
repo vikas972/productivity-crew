@@ -1,0 +1,72 @@
+=== LLM RAW OUTPUT ===
+Timestamp: 2025-08-10T19:25:44.738068
+Step: industry_selection
+Agent: industry_selector
+Output Type: <class 'str'>
+==================================================
+
+{
+    "products": [
+        {
+            "name": "VistaraPay Gateway",
+            "description": "A robust and highly scalable payment processing gateway designed for SMEs, facilitating instant transactions and offering multiple payment options such as UPI, cards, and digital wallets."
+        },
+        {
+            "name": "VistaraPay Analytics",
+            "description": "A comprehensive data analytics platform that provides SMEs with insights on transaction trends, customer behavior, and financial health, enabling them to make informed business decisions and optimize their payment strategies."
+        },
+        {
+            "name": "VistaraPay Fleet Management",
+            "description": "An integrated solution for managing payments and logistics for SMEs in the transportation sector, allowing businesses to track deliveries while ensuring timely payments."
+        },
+        {
+            "name": "VistaraPay Compliance Suite",
+            "description": "A toolkit that helps SMEs ensure they are compliant with RBI guidelines and other regulatory requirements, easing the burden of compliance and enhancing trust with customers."
+        },
+        {
+            "name": "VistaraPay Customer Support AI",
+            "description": "An AI-driven chatbot and support tool that assists SMEs in addressing payment-related queries and concerns, improving customer engagement with 24/7 support."
+        }
+    ],
+    "constraints": [
+        "High competition in the fintech space requires constant innovation and differentiation.",
+        "Integration challenges with existing legacy systems used by SMEs.",
+        "Adherence to strict RBI regulations and compliance requirements that can delay product development.",
+        "Ensuring robust security measures to build trust among skeptical SME customers.",
+        "Scalability issues as the payment volume grows with the expansion of SME clientele."
+    ],
+    "tech_stack": [
+        "Cloud computing platforms (e.g., AWS, Azure, Google Cloud) for scalability.",
+        "API-first architecture to facilitate integration with third-party services.",
+        "Data analytics tools such as Apache Kafka and Tableau for processing and visualizing transaction data.",
+        "Security frameworks including TLS/SSL and multi-factor authentication to ensure secure transactions.",
+        "Database technologies such as MongoDB or PostgreSQL for flexible data storage."
+    ],
+    "communication_style": {
+        "tone": "Concise and data-first",
+        "guidelines": [
+            "Use simple language; avoid jargon whenever possible to ensure clarity.",
+            "Focus on delivering value to the customer in every communication.",
+            "Be supportive and solution-oriented, positioning VistaraPay as a partner rather than just a service provider.",
+            "Highlight data-backed insights and statistics to reinforce points and foster credibility."
+        ]
+    },
+    "target_customers": [
+        {
+            "segment": "Small Enterprises",
+            "description": "Businesses with fewer than 50 employees, often looking for efficient payment processing solutions that are cost-effective and easy to implement."
+        },
+        {
+            "segment": "Medium Enterprises",
+            "description": "Companies with 51 to 250 employees that require more advanced financial management tools and analytics to monitor their growth and performance."
+        },
+        {
+            "segment": "E-commerce Startups",
+            "description": "Newly launched online businesses needing fast, reliable, and secure payment gateways capable of handling fluctuating transaction volumes."
+        },
+        {
+            "segment": "Service Providers",
+            "description": "Businesses in sectors like healthcare, education, and transportation that require specialized payment solutions tailored to their industry requirements."
+        }
+    ]
+}

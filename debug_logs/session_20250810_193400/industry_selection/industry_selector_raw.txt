@@ -1,0 +1,75 @@
+=== LLM RAW OUTPUT ===
+Timestamp: 2025-08-10T19:34:15.512956
+Step: industry_selection
+Agent: industry_selector
+Output Type: <class 'str'>
+==================================================
+
+```python
+company_context = {
+    "products": [
+        {
+            "name": "VistaraPay Gateway",
+            "description": "A robust digital payment gateway solution enabling SMEs to seamlessly accept payments across various channels including credit cards, UPI, and net banking. This solution emphasizes low transaction fees and high conversion rates."
+        },
+        {
+            "name": "VistaraPay Invoicing",
+            "description": "An automated invoicing tool designed to simplify billing procedures for SMEs. This tool allows users to generate, send, and track invoices efficiently while integrating with existing accounting software."
+        },
+        {
+            "name": "VistaraPay Analytics Dashboard",
+            "description": "A powerful analytics tool providing SMEs with insights into sales patterns, payment trends, and customer behaviors, enabling data-driven decision-making."
+        },
+        {
+            "name": "VistaraPay Loans",
+            "description": "A financing solution tailored for SMEs, allowing them to access short-term loans based on their transaction history through the VistaraPay platform."
+        },
+        {
+            "name": "VistaraPay Loyalty Program",
+            "description": "A customer loyalty program facilitating SMEs to create and manage rewards for repeat customers, thus promoting customer retention and strengthening relationships."
+        }
+    ],
+    "constraints": [
+        "High competition in the fintech space leading to price wars and customer acquisition challenges.",
+        "SMEs often lack digital literacy, which poses challenges in onboarding and utilizing digital payment solutions.",
+        "Integration challenges with legacy systems existing within SMEs across various sectors.",
+        "Rapidly evolving technology trends creating pressure for constant innovation and updates.",
+        "Skepticism about digital transactions among traditional businesses, requiring robust trust-building measures."
+    ],
+    "tech_stack": [
+        "Cloud Computing (AWS or Azure)",
+        "API Development (RESTful APIs)",
+        "Data Analytics Tools (e.g., Google Analytics, Tableau)",
+        "Payment Processing Technologies (e.g., Stripe, Razorpay)",
+        "Security Frameworks (e.g., PCI-DSS compliance, Advanced Encryption Standards)"
+    ],
+    "communication_style": {
+        "tone": "Concise, data-centric, and focused on empathy towards customer challenges.",
+        "guidelines": [
+            "Always provide clear and factual information with data backing claims.",
+            "Use straightforward language - avoid jargon unless necessary.",
+            "Engage customers with a supportive tone, emphasizing our commitment to their success.",
+            "Encourage feedback and ensure responsive communication to foster a community feeling.",
+            "Maintain professionalism in all written communications."
+        ]
+    },
+    "target_customers": [
+        {
+            "segment": "Small Enterprises",
+            "description": "Businesses with up to 50 employees, primarily focused on retail and local services, looking for affordable digital payment solutions."
+        },
+        {
+            "segment": "Medium Enterprises",
+            "description": "Companies with 51-250 employees, often requiring more advanced digital payment options due to increased transaction volumes."
+        },
+        {
+            "segment": "Startups",
+            "description": "Tech-driven startups needing a scalable digital payment infrastructure for their emerging businesses."
+        },
+        {
+            "segment": "E-commerce Vendors",
+            "description": "Online vendors seeking integrated payment solutions with analytics to optimize their online selling processes."
+        }
+    ]
+}
+```

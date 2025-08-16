@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-08-10T19:54:43.924109",
+  "step": "mailbox_generation",
+  "transformation": "raw_email_team_lead_1",
+  "before": {
+    "subject": "Cross-team collaboration for new payment feature",
+    "body": "Hi all, I will reach out to the Billing team to align on the new payment feature. Together, we can streamline the integration process.",
+    "timestamp": "2025-07-05T10:00:00+05:30"
+  },
+  "after": "None"
+}

@@ -1,0 +1,92 @@
+=== LLM RAW OUTPUT ===
+Timestamp: 2025-08-10T18:58:05.423560
+Step: industry_selection
+Agent: industry_selector
+Output Type: <class 'str'>
+==================================================
+
+```python
+{
+    "products": [
+        {
+            "name": "VistaraPay Gateway",
+            "description": "A seamless digital payment gateway that allows SMEs to accept various payment methods including UPI, credit/debit cards, and wallets, ensuring a smooth transaction experience.",
+            "features": [
+                "Multi-currency support",
+                "Instant payment settlement",
+                "Easy integration via APIs"
+            ]
+        },
+        {
+            "name": "VistaraPay Analytics",
+            "description": "An analytics tool designed to provide SMEs with insights into their financial transactions, helping them make informed business decisions using real-time data.",
+            "features": [
+                "Transaction trend analysis",
+                "Customer behavior insights",
+                "Customizable reporting"
+            ]
+        },
+        {
+            "name": "VistaraPay Wallet",
+            "description": "A digital wallet solution for SMEs to manage their transactions, making it easier to send/receive payments and manage cash flow directly from a mobile interface.",
+            "features": [
+                "Secure transactions",
+                "Instant fund transfers",
+                "Expense tracking"
+            ]
+        },
+        {
+            "name": "VistaraPay Compliance Suite",
+            "description": "A comprehensive compliance management solution that helps SMEs adhere to regulatory standards set by the Reserve Bank of India, ensuring that their payment processes are compliant and secure.",
+            "features": [
+                "Real-time compliance checks",
+                "Documentation management",
+                "Alerts and notifications for regulatory changes"
+            ]
+        },
+        {
+            "name": "VistaraPay Customer Support Bot",
+            "description": "An AI-driven support chatbot that assists SMEs with payment-related queries 24/7, enhancing customer service experience while reducing operational costs.",
+            "features": [
+                "Natural language processing",
+                "Multi-lingual support",
+                "Integration with CRM systems"
+            ]
+        }
+    ],
+    "constraints": [
+        "High competition in the fintech space with numerous established players",
+        "Navigating complex regulatory requirements from the Reserve Bank of India",
+        "Integration challenges with existing IT systems of SMEs",
+        "Ensuring robust security standards to build trust among users",
+        "Scalability issues as SMEs require flexibility to grow their payment solutions"
+    ],
+    "tech_stack": [
+        "Cloud platforms (AWS, Azure, or GCP)",
+        "Programming languages (Java, Python, Node.js)",
+        "Database management systems (PostgreSQL, MongoDB)",
+        "Frontend frameworks (React, Angular)",
+        "Payment processing APIs (Razorpay, PayU)"
+    ],
+    "communication_style": {
+        "tone": "concise and data-first, focusing on clarity and actionable insights.",
+        "language": "Use simple language that resonates with SMEs, avoiding technical jargon and focusing on pain points and solutions.",
+        "format": "Use bullet points for clarity, infographics for data representation, and ensure all communications support the business objectives of the customers.",
+        "response_time": "Aim for a response time of fewer than 24 hours for customer inquiries to reflect the support value."
+    },
+    "target_customers": [
+        {
+            "segment": "Small Enterprises (1-50 employees)",
+            "description": "Looking for economical and user-friendly digital payment solutions to handle everyday transactions and improve their cash flow management."
+        },
+        {
+            "segment": "Medium Enterprises (51-250 employees)",
+            "description": "Require scalable solutions that can integrate seamlessly with existing systems to support increasing transaction volumes and streamline financial processes."
+        },
+        {
+            "segment": "Startups",
+            "description": "Innovation-focused businesses seeking modern payment solutions that can grow and adapt as they scale, with a focus on ease of integration and user experience."
+        }
+    ]
+}
+```

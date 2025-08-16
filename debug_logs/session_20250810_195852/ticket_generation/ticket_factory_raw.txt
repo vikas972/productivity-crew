@@ -1,0 +1,713 @@
+=== LLM RAW OUTPUT ===
+Timestamp: 2025-08-10T20:02:51.237673
+Step: ticket_generation
+Agent: ticket_factory
+Output Type: <class 'str'>
+==================================================
+
+```json
+[
+    {
+        "ticket_id": "PAY-0001",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-001",
+        "type": "Story",
+        "title": "Implement payment gateway integration for new provider",
+        "description": "Integrate the new payment gateway provider to enhance payment options. Acceptance criteria: \n- API for paying customers should process payments correctly.\n- Ensure security compliance.\n- Documentation for integration must be completed.",
+        "priority": "High",
+        "story_points": 5,
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-001",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-03"},
+            {"status": "Code Review", "date": "2025-07-05"},
+            {"status": "Testing", "date": "2025-07-06"},
+            {"status": "Done", "date": "2025-07-07"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "What specific payment methods need support?"},
+            {"date": "2025-07-03", "comment": "Currently integrating API endpoints."},
+            {"date": "2025-07-05", "comment": "LGTM! Just ensure the credentials are not pushed to the repo."},
+            {"date": "2025-07-06", "comment": "All tests passed, running edge case scenarios before deployment."},
+            {"date": "2025-07-07", "comment": "Deployed the payment gateway integration successfully."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0002",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-001",
+        "type": "Bug",
+        "title": "Fix transaction processing error on payment page",
+        "description": "Users cannot complete the payment due to an internal server error. Acceptance criteria: \n- Issue should be resolved and logged.\n- Users must successfully complete transactions without errors.",
+        "priority": "Critical",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-002",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-03"},
+            {"status": "Code Review", "date": "2025-07-04"},
+            {"status": "Testing", "date": "2025-07-05"},
+            {"status": "Done", "date": "2025-07-06"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "Please provide logs from the server for further investigation."},
+            {"date": "2025-07-03", "comment": "The error was identified in the payment processing method, fixing it now."},
+            {"date": "2025-07-04", "comment": "Code looks good but let's monitor the performance during testing."},
+            {"date": "2025-07-05", "comment": "Test shows that the issue is resolved, but we need to check transaction logs."},
+            {"date": "2025-07-06", "comment": "Confirmed the fix, deployed without issues."}
+        ],
+        "attachments": [
+            {"type": "log_file", "file_name": "transaction_error_logs.txt"}
+        ]
+    },
+    {
+        "ticket_id": "PAY-0003",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-002",
+        "type": "Story",
+        "title": "Enhance KYC verification flow",
+        "description": "Improve KYC verification process for faster approval. Acceptance criteria: \n- Users should experience reduced waiting times.\n- Automate ID document scanning feature must be implemented.",
+        "priority": "Medium",
+        "story_points": 8,
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-001",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-03"},
+            {"status": "Code Review", "date": "2025-07-07"},
+            {"status": "Done", "date": "2025-07-08"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "Need to clarify which ID types we will support."},
+            {"date": "2025-07-03", "comment": "Working on automating document validation."},
+            {"date": "2025-07-07", "comment": "LGTM, excellent optimization!"}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0004",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-003",
+        "type": "Task",
+        "title": "Review fraud detection rules",
+        "description": "Conduct a comprehensive review of current fraud detection rules implemented in the system. Acceptance criteria: \n- All rules must be documented.\n- Revisions proposed for rules that are outdated.",
+        "priority": "Medium",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-003",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-04"},
+            {"status": "Done", "date": "2025-07-05"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "Can anyone confirm what the most recent rule updates were?"},
+            {"date": "2025-07-04", "comment": "Working through the existing rules and will update tomorrow."},
+            {"date": "2025-07-05", "comment": "Completed the review and documented all findings."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0005",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-001",
+        "type": "Spike",
+        "title": "Research API rate limiting strategies",
+        "description": "Investigate best practices for API rate limiting to enhance system reliability. Acceptance criteria: \n- Provide a summary of recommended strategies.\n- Include pros and cons for each approach.",
+        "priority": "Low",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-004",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-04"},
+            {"status": "Done", "date": "2025-07-05"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "What API endpoints are we most concerned about?"}, 
+            {"date": "2025-07-04", "comment": "Found several strategies; compiling them now."},
+            {"date": "2025-07-05", "comment": "Research completed, document attached with findings."}
+        ],
+        "attachments": [
+            {"type": "document", "file_name": "API_Rate_Limiting_Strategies.pdf"}
+        ]
+    },
+    {
+        "ticket_id": "PAY-0006",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-002",
+        "type": "Story",
+        "title": "Optimize payment processing times",
+        "description": "Reduce the average payment processing time. Acceptance criteria: \n- Target processing time reduced to under 500ms.\n- Performance tests must verify the improvement.",
+        "priority": "High",
+        "story_points": 13,
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-001",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-06"},
+            {"status": "Code Review", "date": "2025-07-07"},
+            {"status": "Done", "date": "2025-07-08"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "Do we have baseline metrics for current processing times?"},
+            {"date": "2025-07-06", "comment": "Increased processing speeds noticed after refactoring code."},
+            {"date": "2025-07-07", "comment": "Performance improvements look good, on track for testing."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0007",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-003",
+        "type": "Bug",
+        "title": "Transaction monitoring alert not triggered",
+        "description": "The alert system for high-value transactions is not functioning. Acceptance criteria: \n- Alerts should trigger as expected.\n- All related documentation should be reviewed and updated.",
+        "priority": "Critical",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-002",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-03"},
+            {"status": "Code Review", "date": "2025-07-04"},
+            {"status": "Testing", "date": "2025-07-05"},
+            {"status": "Done", "date": "2025-07-06"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "What conditions are expected to trigger these alerts?"},
+            {"date": "2025-07-03", "comment": "Located the error in the monitoring logic."},
+            {"date": "2025-07-04", "comment": "Proposed fixes applied, ready for testing."},
+            {"date": "2025-07-05", "comment": "Confirmed alerts are now triggering appropriately."},
+            {"date": "2025-07-06", "comment": "Successfully deployed the fix without issues."}
+        ],
+        "attachments": [
+            {"type": "log_file", "file_name": "monitoring_alerts_log.txt"}
+        ]
+    },
+    {
+        "ticket_id": "PAY-0008",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-001",
+        "type": "Task",
+        "title": "Update security compliance documentation",
+        "description": "Revise current security compliance documentation to reflect recent changes in regulations. Acceptance criteria: \n- Documentation must be accurate and up-to-date.\n- All changes should be reviewed by compliance officer.",
+        "priority": "Medium",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-004",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-04"},
+            {"status": "Done", "date": "2025-07-05"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "What recent regulations do we need to consider?"}, 
+            {"date": "2025-07-04", "comment": "Draft is ready for compliance review."},
+            {"date": "2025-07-05", "comment": "Document has been updated as per feedback."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0009",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-001",
+        "type": "Spike",
+        "title": "Investigate performance optimization techniques for transaction processing",
+        "description": "Explore techniques to optimize transaction processing in the system. Acceptance criteria: \n- Compile a report of techniques and their anticipated impact on performance.\n- Include proposed implementation strategy.",
+        "priority": "Low",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-003",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-04"},
+            {"status": "Done", "date": "2025-07-05"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "Can we assess current performance metrics first?"}, 
+            {"date": "2025-07-04", "comment": "Have found various techniques suitable for our use case."},
+            {"date": "2025-07-05", "comment": "Report is ready, attaching for review."}
+        ],
+        "attachments": [
+            {"type": "document", "file_name": "Performance_Optimization_Techniques.pdf"}
+        ]
+    },
+    {
+        "ticket_id": "PAY-0010",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-002",
+        "type": "Story",
+        "title": "Implement customer onboarding process",
+        "description": "Develop a seamless customer onboarding system. Acceptance criteria: \n- 80% of users complete onboarding in under 5 minutes.\n- User feedback form to gauge satisfaction.",
+        "priority": "High",
+        "story_points": 3,
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-001",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-04"},
+            {"status": "Code Review", "date": "2025-07-08"},
+            {"status": "Done", "date": "2025-07-09"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "What features should be prioritized during onboarding?"},
+            {"date": "2025-07-04", "comment": "Initial interface mockups are ready."},
+            {"date": "2025-07-08", "comment": "Code review completed, additional feedback from UX team needed."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0011",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-003",
+        "type": "Bug",
+        "title": "Information mismatch in user account details",
+        "description": "User account details display incorrect address information. Acceptance criteria: \n- Correct address should be displayed on all relevant pages.\n- User should not be able to submit incorrect information.",
+        "priority": "Medium",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-002",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-03"},
+            {"status": "Code Review", "date": "2025-07-05"},
+            {"status": "Testing", "date": "2025-07-06"},
+            {"status": "Done", "date": "2025-07-07"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "Can we get examples of affected user accounts?"},
+            {"date": "2025-07-03", "comment": "Working on the fix now."},
+            {"date": "2025-07-05", "comment": "Feedback from code review indicates we need additional tests."},
+            {"date": "2025-07-06", "comment": "Testing confirmed the issue has been fixed."},
+            {"date": "2025-07-07", "comment": "Fixed deployed, users notified."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0012",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-001",
+        "type": "Story",
+        "title": "Develop API for transaction history retrieval",
+        "description": "Create an API that allows users to retrieve their transaction history securely. Acceptance criteria: \n- API response time should be under 300ms.\n- Implement proper authentication.",
+        "priority": "Medium",
+        "story_points": 5,
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-003",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-04"},
+            {"status": "Code Review", "date": "2025-07-06"},
+            {"status": "Done", "date": "2025-07-07"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "What format should the transaction history be returned in?"},
+            {"date": "2025-07-04", "comment": "API endpoints established, working on authentication."},
+            {"date": "2025-07-06", "comment": "Code review completed with some minor feedback."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0013",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-002",
+        "type": "Task",
+        "title": "Conduct security audit of payment system",
+        "description": "Perform a security audit for the payment processing system. Acceptance criteria: \n- Document all vulnerabilities found.\n- Provide recommendations for mitigation.",
+        "priority": "High",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-004",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-04"},
+            {"status": "Done", "date": "2025-07-06"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "What specific areas should we focus on during the audit?"},
+            {"date": "2025-07-04", "comment": "Initial findings suggest there are some outdated libraries."},
+            {"date": "2025-07-06", "comment": "Audit complete, findings documented."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0014",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-001",
+        "type": "Bug",
+        "title": "Failed email notifications for payment confirmation",
+        "description": "Users are not receiving email notifications for payment confirmations. Acceptance criteria: \n- Email notifications should be sent successfully after each transaction.\n- Log details of sent emails should be verifiable.",
+        "priority": "High",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-002",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-03"},
+            {"status": "Code Review", "date": "2025-07-04"},
+            {"status": "Testing", "date": "2025-07-05"},
+            {"status": "Done", "date": "2025-07-06"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "Can we check the email server logs for issues?"},
+            {"date": "2025-07-03", "comment": "Identified the issue was related to SMTP settings."},
+            {"date": "2025-07-04", "comment": "Code review completed, everything is in order."},
+            {"date": "2025-07-05", "comment": "Testing alerts generated successful email notifications."},
+            {"date": "2025-07-06", "comment": "Deployed fix, monitoring for any further issues."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0015",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-002",
+        "type": "Story",
+        "title": "Implement user feedback system after payment",
+        "description": "Create a feedback system to capture user experience post-payment. Acceptance criteria: \n- Users should be prompted for feedback after each transaction.\n- Feedback should be stored securely and be accessible for analysis.",
+        "priority": "Medium",
+        "story_points": 3,
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-001",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-04"},
+            {"status": "Code Review", "date": "2025-07-08"},
+            {"status": "Done", "date": "2025-07-09"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "What specific feedback areas should we focus on?"},
+            {"date": "2025-07-04", "comment": "Working on a draft form for the feedback request."},
+            {"date": "2025-07-08", "comment": "Code review completed without issues, ready for final checks."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0016",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-001",
+        "type": "Spike",
+        "title": "Evaluate two-factor authentication options",
+        "description": "Research two-factor authentication options for increased user account security. Acceptance criteria: \n- Report on available options and their user impacts.\n- Include costs associated with implementation.",
+        "priority": "Low",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-003",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-04"},
+            {"status": "Done", "date": "2025-07-05"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "What user demographics should we cater to with two-factor auth?"},
+            {"date": "2025-07-04", "comment": "Gathered various options, compiling the report."},
+            {"date": "2025-07-05", "comment": "Report ready for review, details attached."}
+        ],
+        "attachments": [
+            {"type": "document", "file_name": "Two_Factor_Authentication_Options.pdf"}
+        ]
+    },
+    {
+        "ticket_id": "PAY-0017",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-001",
+        "type": "Story",
+        "title": "Implement user role permissions for support staff",
+        "description": "Define and implement role-based access for support staff. Acceptance criteria: \n- Ensure support staff can access user accounts securely.\n- Document roles and permissions clearly.",
+        "priority": "Medium",
+        "story_points": 3,
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-002",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-03"},
+            {"status": "Code Review", "date": "2025-07-05"},
+            {"status": "Done", "date": "2025-07-06"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "What's the current access for support staff?"},
+            {"date": "2025-07-03", "comment": "Implementation started based on existing guidelines, will keep you updated."},
+            {"date": "2025-07-05", "comment": "Code reviewed, one suggestion regarding naming conventions."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0018",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-002",
+        "type": "Task",
+        "title": "Monitor transaction performance metrics",
+        "description": "Set up monitoring for transaction performance to identify bottlenecks timely. Acceptance criteria: \n- Automated monitoring must capture transaction timings.\n- Alerts to notify if timings exceed limits.",
+        "priority": "High",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-004",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-04"},
+            {"status": "Done", "date": "2025-07-05"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "What current metrics systems are in place?"},
+            {"date": "2025-07-04", "comment": "Monitoring setup is complete, testing alerts next."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0019",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-001",
+        "type": "Bug",
+        "title": "Incorrect locale setting for payment processing",
+        "description": "Payments are processed under incorrect localization settings. Acceptance criteria: \n- Payment process displays locale information correctly.\n- Implement unit tests to validate the localizations.",
+        "priority": "Medium",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-002",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-03"},
+            {"status": "Code Review", "date": "2025-07-04"},
+            {"status": "Testing", "date": "2025-07-05"},
+            {"status": "Done", "date": "2025-07-06"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "Can we ensure that localization files are up to date?"},
+            {"date": "2025-07-03", "comment": "The issue was traced to incorrect locale parameters."},
+            {"date": "2025-07-04", "comment": "Code review completed; everything looks good."},
+            {"date": "2025-07-05", "comment": "Passed all tests, awaiting deployment confirmation."},
+            {"date": "2025-07-06", "comment": "Successfully deployed fix for locale settings."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0020",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-003",
+        "type": "Story",
+        "title": "Enhance fraud detection system with machine learning",
+        "description": "Integrate machine learning algorithms into the fraud detection system to improve accuracy. Acceptance criteria: \n- ML model should show improved classification rates.\n- Document how the model was trained and tested.",
+        "priority": "High",
+        "story_points": 21,
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-003",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-04"},
+            {"status": "Code Review", "date": "2025-07-08"},
+            {"status": "Done", "date": "2025-07-09"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "What data sources can we use to train the model?"}, 
+            {"date": "2025-07-04", "comment": "Training the model is underway."},
+            {"date": "2025-07-08", "comment": "Completed the model training; ready for evaluation."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0021",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-001",
+        "type": "Bug",
+        "title": "Password reset email not sending",
+        "description": "Users are not receiving password reset emails when requested. Acceptance criteria: \n- Emails must be received without errors.\n- Logs must capture failed attempts for review.",
+        "priority": "High",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-002",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-03"},
+            {"status": "Code Review", "date": "2025-07-04"},
+            {"status": "Testing", "date": "2025-07-06"},
+            {"status": "Done", "date": "2025-07-07"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "Can we review the email service setup?"}, 
+            {"date": "2025-07-03", "comment": "Identified the SMTP settings were incorrect."},
+            {"date": "2025-07-04", "comment": "Code looks good, ready for tests."},
+            {"date": "2025-07-06", "comment": "All tests passed, issue resolved."},
+            {"date": "2025-07-07", "comment": "Deployment completed successfully."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0022",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-002",
+        "type": "Task",
+        "title": "Create alerts for failed payments",
+        "description": "Set up an alert system for failed payment transactions. Acceptance criteria: \n- Alerts must notify relevant staff upon payment failures.\n- Log all failed payment details.",
+        "priority": "Medium",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-004",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-03"},
+            {"status": "Done", "date": "2025-07-04"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "How do we currently handle failure notifications?"},
+            {"date": "2025-07-03", "comment": "Implementing the alert logic right now."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0023",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-001",
+        "type": "Story",
+        "title": "Refactor payment processing module",
+        "description": "Refactor the payment processing module to improve performance and maintainability. Acceptance criteria: \n- No change in external behavior.\n- Document the changes made in the codebase.",
+        "priority": "Medium",
+        "story_points": 5,
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-003",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-03"},
+            {"status": "Code Review", "date": "2025-07-05"},
+            {"status": "Done", "date": "2025-07-06"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "Can we plan for a team review of the current module?"},
+            {"date": "2025-07-03", "comment": "Refactoring in progress, focused on optimizing algorithm."},
+            {"date": "2025-07-05", "comment": "Greatly improved readability and structure."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0024",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-003",
+        "type": "Spike",
+        "title": "Explore blockchain for payment settlements",
+        "description": "Research the potential for blockchain technology in payment settlements. Acceptance criteria: \n- Provide a summary of blockchain benefits and challenges.\n- Assess potential implementation costs and timeline.",
+        "priority": "Low",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-004",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-04"},
+            {"status": "Done", "date": "2025-07-06"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "What specific features do we want to explore with blockchain?"},
+            {"date": "2025-07-04", "comment": "Researching several blockchain solutions."}
+        ],
+        "attachments": [
+            {"type": "document", "file_name": "Blockchain_Payment_Setttlements_Research.pdf"}
+        ]
+    },
+    {
+        "ticket_id": "PAY-0025",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-002",
+        "type": "Task",
+        "title": "Create recovery plan for payment system",
+        "description": "Develop a disaster recovery plan for the payment system. Acceptance criteria: \n- Document should cover all critical components.\n- Recovery timelines must be defined and communicated.",
+        "priority": "Medium",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-005",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-03"},
+            {"status": "Done", "date": "2025-07-04"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "What are the critical components of our payment system?"}, 
+            {"date": "2025-07-03", "comment": "Draft recovery plan is now ready."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0026",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-001",
+        "type": "Story",
+        "title": "Add new payment methods to the platform",
+        "description": "Integrate additional payment methods to provide users with more options. Acceptance criteria: \n- New methods should be functional and compliant.\n- Update relevant documentation.",
+        "priority": "Medium",
+        "story_points": 5,
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-001",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-03"},
+            {"status": "Code Review", "date": "2025-07-05"},
+            {"status": "Done", "date": "2025-07-06"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "Which payment methods are we adding?"}, 
+            {"date": "2025-07-03", "comment": "Integration started for the first payment method."},
+            {"date": "2025-07-05", "comment": "Code reviewed and ready for documentation update."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0027",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-001",
+        "type": "Bug",
+        "title": "Currency conversion malfunction in payment system",
+        "description": "Currency conversion feature is not functioning, causing wrong transaction amounts. Acceptance criteria: \n- Currency conversion should work as expected.\n- Audit logs must reflect transaction amounts accurately.",
+        "priority": "High",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-002",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-03"},
+            {"status": "Code Review", "date": "2025-07-04"},
+            {"status": "Testing", "date": "2025-07-05"},
+            {"status": "Done", "date": "2025-07-06"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "Can we investigate the last API interaction logs?"}, 
+            {"date": "2025-07-03", "comment": "Working on fixing the conversion logic."},
+            {"date": "2025-07-04", "comment": "Code review completed, minor suggestions given."},
+            {"date": "2025-07-05", "comment": "Testing confirmed that currency conversion is functional."},
+            {"date": "2025-07-06", "comment": "Deployment successful; monitoring initial transactions."}
+        ],
+        "attachments": []
+    },
+    {
+        "ticket_id": "PAY-0028",
+        "project_id": "PROJ-PAY",
+        "epic_id": "EPIC-003",
+        "type": "Task",
+        "title": "Document API integrations",
+        "description": "Create documentation for existing API integrations. Acceptance criteria: \n- Must include endpoints, parameters, and response formats.\n- Documentation should be easily accessible.",
+        "priority": "Low",
+        "reporter_id": "TL-001",
+        "assignee_id": "DEV-005",
+        "status_timeline": [
+            {"status": "Backlog", "date": "2025-07-01"},
+            {"status": "To Do", "date": "2025-07-02"},
+            {"status": "In Progress", "date": "2025-07-03"},
+            {"status": "Done", "date": "2025-07-04"}
+        ],
+        "comments": [
+            {"date": "2025-07-01", "comment": "What API integrations should be prioritized for documentation?"},
+            {"date": "2025-07-03", "comment": "Draft documentation is ready for review."}
+        ],
+        "attachments": []
+    }
+]
+```

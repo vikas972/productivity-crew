@@ -1,0 +1,87 @@
+=== LLM RAW OUTPUT ===
+Timestamp: 2025-08-10T19:27:28.566858
+Step: mailbox_generation
+Agent: mailbox_generator
+Output Type: <class 'str'>
+==================================================
+
+{
+    'junior_engineer_1': [
+        {
+            'subject': 'Quick question about payment API integration',
+            'timestamp': '2025-07-02 10:15 IST',
+            'body': 'Hi Team,\n\nI hope you're all doing well! I have a quick question regarding the payment API integration. Could you please clarify how to handle the error responses?\n\nThanks in advance!\n\nBest,\nJunior Engineer 1'
+        },
+        {
+            'subject': 'Need help with ticket [PAY-1001]',
+            'timestamp': '2025-07-03 11:00 IST',
+            'body': 'Hi Senior Engineer,\n\nI am looking at ticket [PAY-1001] and I’m a little confused about the implementation details. Would you have time for a quick meeting or could you point me to some documentation?\n\nCheers,\nJunior Engineer 1'
+        },
+        {
+            'subject': 'How do I test the payment gateway?',
+            'timestamp': '2025-07-04 12:30 IST',
+            'body': 'Hi Team,\n\nI need some guidance on the best practices for testing the payment gateway feature. Any suggestions would be greatly appreciated!\n\nThank you!\n\nRegards,\nJunior Engineer 1'
+        }
+    ],
+    
+    'senior_engineer_1': [
+        {
+            'subject': 'Recommendation for API logging strategy',
+            'timestamp': '2025-07-01 09:30 IST',
+            'body': 'Hi Team,\n\nI’ve been reviewing our logging strategy and I recommend we implement structured logging for our payment APIs. This will enhance our debugging process. \n\nLet me know your thoughts.\n\nBest,\nSenior Engineer 1'
+        },
+        {
+            'subject': 'Code review for payment processing module',
+            'timestamp': '2025-07-05 14:45 IST',
+            'body': 'Hi Team,\n\nI just completed the code review for the payment processing module. Please find my comments attached. \n\nLooking forward to your feedback.\n\nThanks,\nSenior Engineer 1',
+            'attachments': ['code_review_payment_processing.txt']
+        },
+        {
+            'subject': 'Technical approach for resolving ticket [PAY-1003]',
+            'timestamp': '2025-07-06 09:50 IST',
+            'body': 'Hi Everyone,\n\nRegarding ticket [PAY-1003], I suggest we explore optimizing the transaction query. I've attached the current execution plan for visibility.\n\nLet’s discuss in our next stand-up.\n\nCheers,\nSenior Engineer 1',
+            'attachments': ['exec_plan_PAY-1003.sql']
+        }
+    ],
+    
+    'team_lead_1': [
+        {
+            'subject': 'Sprint planning for next cycle',
+            'timestamp': '2025-07-01 09:00 IST',
+            'body': 'Hi Team,\n\nAs we enter the next sprint, please prepare your updates on ongoing tasks for our meeting this Friday. I’d like us to align on priorities.\n\nBest,\nTeam Lead 1'
+        },
+        {
+            'subject': 'Team alignment on payment features',
+            'timestamp': '2025-07-02 15:00 IST',
+            'body': 'Hi All,\n\nLet’s schedule a sync to ensure we’re all on the same page regarding the upcoming payment features. Please check your availability for Thursday.\n\nThanks,\nTeam Lead 1'
+        },
+        {
+            'subject': 'Cross-team collaboration for new initiatives',
+            'timestamp': '2025-07-04 10:30 IST',
+            'body': 'Hi Team,\n\nWe need to collaborate with the Fraud Prevention team on integrating their checks into our payment processing. Let’s set up an initial meeting next week.\n\nRegards,\nTeam Lead 1'
+        }
+    ],
+    
+    'manager_1': [
+        {
+            'subject': 'Resource allocation for upcoming project',
+            'timestamp': '2025-07-01 08:30 IST',
+            'body': 'Hi Team,\n\nIn preparation for the new project, I’d like to discuss resource allocation during our next team meeting. Please bring your suggestions.\n\nBest regards,\nManager 1'
+        },
+        {
+            'subject': 'Strategic alignment for Q3 goals',
+            'timestamp': '2025-07-03 11:15 IST',
+            'body': 'Hi All,\n\nAs we approach Q3, I’d like to ensure we’re aligned on our strategic goals. Let’s discuss each area during our upcoming all-hands meeting.\n\nThank you,\nManager 1'
+        },
+        {
+            'subject': 'Team performance updates and 1:1s',
+            'timestamp': '2025-07-05 09:45 IST',
+            'body': 'Hi Team,\n\nI’ll be scheduling 1:1 meetings next week to discuss performance and any challenges you may be facing. Please look out for invites.\n\nBest,\nManager 1'
+        },
+        {
+            'subject': 'Corporate announcement: New training program',
+            'timestamp': '2025-07-06 16:00 IST',
+            'body': 'Hi Team,\n\nSize Ltd. has announced a new training program available for all engineers. This will supplement our existing skill set. Details will be shared soon.\n\nRegards,\nManager 1'
+        }
+    ]
+}

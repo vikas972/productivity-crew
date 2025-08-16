@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-08-10T21:44:24.438556",
+  "step": "sprint_planning",
+  "agent": "sprint_planner",
+  "parsed_type": "<class 'dict'>",
+  "parsed_data": {
+    "sprint_id": "SPRINT-2",
+    "name": "Core Development",
+    "start_date": "2025-07-15T09:00:00+05:30",
+    "end_date": "2025-07-28T17:00:00+05:30",
+    "project_id": "PROJ-PAY"
+  }
+}

@@ -1,0 +1,78 @@
+=== LLM RAW OUTPUT ===
+Timestamp: 2025-08-10T18:35:45.821652
+Step: industry_selection
+Agent: industry_selector
+Output Type: <class 'str'>
+==================================================
+
+{
+  "products": [
+    {
+      "name": "VistaraPay Wallet",
+      "description": "A digital wallet solution allowing SMEs to make and receive payments seamlessly through a mobile app. Features include instant transfers, multi-currency support, and transaction history analytics.",
+      "key_benefits": ["Low transaction fees", "Real-time notifications", "User-friendly interface"]
+    },
+    {
+      "name": "Smart Invoice Management",
+      "description": "An integrated invoicing system that automates billing, payment reminders, and reconciliation for SMEs, helping them to manage their cash flow efficiently.",
+      "key_benefits": ["Reduction in manual errors", "Easy tracking of receivables", "Integration with accounting software"]
+    },
+    {
+      "name": "LendSmart",
+      "description": "A lending solution that connects SMEs with potential investors, providing a platform for quick loan approvals based on real-time data assessments.",
+      "key_benefits": ["Instant loan processing", "Flexible repayment options", "Improved credit access for SMEs"]
+    },
+    {
+      "name": "VistaraPay Gateway",
+      "description": "A robust online payment gateway that supports multiple payment modes like UPI, cards, and net banking, ensuring secure transactions for e-commerce SMEs.",
+      "key_benefits": ["Highly secure transactions", "Integration with existing e-commerce platforms", "Support for multiple payment channels"]
+    },
+    {
+      "name": "Analytics Dashboard",
+      "description": "A data-driven analytics tool that provides SMEs with insights into their transaction patterns, customer behaviour, and cash flow forecasts.",
+      "key_benefits": ["Data visualization", "Customizable reports", "Performance tracking"]
+    }
+  ],
+  "constraints": [
+    "Complexity of regulations under RBI guidelines impacting payment processing and fund transfers.",
+    "High competition from established players and new startups requiring continuous innovation.",
+    "Integration issues with existing financial systems used by SMEs, causing scalability challenges.",
+    "Security concerns around fraud and trust that affect user adoption.",
+    "Limited digital literacy among certain SME segments hindering technology adoption."
+  ],
+  "tech_stack": [
+    "Node.js for server-side applications",
+    "React for building responsive user interfaces",
+    "MongoDB as a NoSQL database for flexibility and scalability",
+    "AWS or Azure for cloud infrastructure to ensure high availability and security",
+    "Stripe and Razorpay for payment processing integration"
+  ],
+  "communication_style": {
+    "tone": "Concise and supportive with a focus on clarity and data-driven communication.",
+    "guidelines": [
+      "Use straightforward language avoiding jargon",
+      "Focus on customer needs and provide actionable insights",
+      "Be proactive in addressing concerns and clarifying details",
+      "Incorporate data to support claims and recommendations",
+      "Maintain a respectful and empathetic tone in all communications"
+    ]
+  },
+  "target_customers": [
+    {
+      "type": "Small Enterprises",
+      "characteristics": "Businesses with annual revenues under ₹5 crore, often facing cash flow issues and in need of seamless payment solutions."
+    },
+    {
+      "type": "Medium Enterprises",
+      "characteristics": "Businesses with revenues ranging from ₹5 to ₹50 crore looking for streamlined operations and tools that support growth."
+    },
+    {
+      "type": "Startups",
+      "characteristics": "Newly established businesses focused on innovation and technology adoption, often seeking scalable and flexible financial solutions."
+    },
+    {
+      "type": "E-Commerce Firms",
+      "characteristics": "Online retail businesses in need of reliable payment gateways and analytics to track customer spends effectively."
+    }
+  ]
+}

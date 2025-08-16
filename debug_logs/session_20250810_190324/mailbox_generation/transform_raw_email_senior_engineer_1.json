@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-08-10T19:05:09.191270",
+  "step": "mailbox_generation",
+  "transformation": "raw_email_senior_engineer_1",
+  "before": {
+    "subject": "Code review for the latest payment feature",
+    "body": "Hi Team,\n\nI\u2019ve reviewed the code for the new payment feature. Here are my comments:\n1. Consider using more descriptive variable names.\n2. Add error handling for the payment processor.\n\nFeel free to reach out with any questions.\n\nBest,\nSenior Engineer 1",
+    "timestamp": "2025-07-05 11:15:00"
+  },
+  "after": "None"
+}

@@ -1,0 +1,82 @@
+{
+  "timestamp": "2025-08-10T18:59:53.364772",
+  "step": "unknown",
+  "agent": "unknown",
+  "parsed_type": "<class 'dict'>",
+  "parsed_data": {
+    "IntegrityReport": {
+      "passed": false,
+      "errors": [
+        {
+          "category": "referential_integrity",
+          "description": "Manager IDs reference invalid persons.",
+          "affected_entities": {
+            "manager_ids": [
+              101,
+              105
+            ]
+          },
+          "suggested_remediation": "Check for the existence of manager IDs 101 and 105 within the persons dataset."
+        },
+        {
+          "category": "referential_integrity",
+          "description": "Assignee IDs reference invalid persons.",
+          "affected_entities": {
+            "assignee_ids": [
+              103
+            ]
+          },
+          "suggested_remediation": "Ensure assignee ID 103 exists in the person dataset."
+        },
+        {
+          "category": "business_rules",
+          "description": "Ticket status 'Done' does not have code review comments.",
+          "affected_entities": {
+            "ticket_ids": [
+              2,
+              5
+            ]
+          },
+          "suggested_remediation": "Add code review comments to tickets 2 and 5."
+        },
+        {
+          "category": "business_rules",
+          "description": "Emails sent outside business hours exceed 15%.",
+          "affected_entities": {
+            "email_count": 8,
+            "out_of_hours_emails": 3
+          },
+          "suggested_remediation": "Limit emails sent after 6 PM or provide context for urgency."
+        }
+      ],
+      "warnings": [
+        {
+          "category": "data_quality",
+          "description": "Email timestamps not aligned with ticket status.",
+          "affected_entities": {
+            "email_ids": [
+              6,
+              7
+            ]
+          },
+          "suggested_remediation": "Adjust timestamps for emails 6 and 7 to match ticket status at the time."
+        },
+        {
+          "category": "data_quality",
+          "description": "Inconsistent content level in technical terms.",
+          "affected_entities": {
+            "various_ids": [
+              1,
+              3,
+              4
+            ]
+          },
+          "suggested_remediation": "Ensure that technical terminologies used in tickets are appropriate for the fintech domain."
+        }
+      ],
+      "ticket_count": 7,
+      "email_count": 10,
+      "person_count": 10
+    }
+  }
+}

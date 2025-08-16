@@ -1,0 +1,9 @@
+=== VALIDATION ERROR ===
+Timestamp: 2025-08-10T18:59:44.960872
+Step: mailbox_generation
+Data Type: MailMessage
+Error: 'dict' object has no attribute 'company_slug'
+==================================================
+
+=== RAW DATA THAT FAILED ===
+{'subject': 'Strategic alignment meeting', 'timestamp': '2025-07-05T11:00:00+05:30', 'content': 'Dear Team,\n\nLet’s have a strategic alignment meeting next week to discuss our priorities going forward. I want to make sure we’re in sync regarding our progress on the ongoing tickets. Please share your availability.\n\nBest,\nManager 1'}

@@ -1,0 +1,139 @@
+{
+  "timestamp": "2025-08-10T18:37:22.057331",
+  "step": "ticket_generation",
+  "transformation": "transformed_ticket",
+  "before": {
+    "ticket_id": "PAY-0006",
+    "project_id": "PROJ-PAY",
+    "epic_id": "EPIC-002",
+    "type": "Bug",
+    "title": "API Rate Limiting Issues",
+    "description": "The current API for transaction processing is experiencing rate limiting issues which affect the user experience. Acceptance Criteria: 1. Identify the cause of the 429 errors. 2. Ensure proper rate limiting configuration.",
+    "priority": "High",
+    "story_points": 2,
+    "reporter_id": "USER-002",
+    "assignee_id": "USER-003",
+    "status_timeline": [
+      {
+        "status": "Backlog",
+        "date": "2025-07-02"
+      },
+      {
+        "status": "To Do",
+        "date": "2025-07-03"
+      },
+      {
+        "status": "In Progress",
+        "date": "2025-07-05"
+      },
+      {
+        "status": "Code Review",
+        "date": "2025-07-06"
+      },
+      {
+        "status": "Testing",
+        "date": "2025-07-07"
+      },
+      {
+        "status": "Done",
+        "date": "2025-07-08"
+      }
+    ],
+    "comments": [
+      {
+        "date": "2025-07-03",
+        "comment": "Can we check the number of concurrent requests allowed?"
+      },
+      {
+        "date": "2025-07-05",
+        "comment": "Working on the rate limiting setup now."
+      },
+      {
+        "date": "2025-07-06",
+        "comment": "Great job fixing the limits, let's ensure documentation is updated."
+      },
+      {
+        "date": "2025-07-07",
+        "comment": "Testing has confirmed the fix. Everything is operational."
+      },
+      {
+        "date": "2025-07-08",
+        "comment": "Deployed the changes to production."
+      }
+    ],
+    "attachments": [
+      "api_rate_limits_doc.pdf"
+    ]
+  },
+  "after": {
+    "ticket_id": "PAY-0006",
+    "project_id": "PROJ-PAY",
+    "epic_id": "EPIC-PAY-002",
+    "type": "Bug",
+    "title": "API Rate Limiting Issues",
+    "description": "The current API for transaction processing is experiencing rate limiting issues which affect the user experience. Acceptance Criteria: 1. Identify the cause of the 429 errors. 2. Ensure proper rate limiting configuration.",
+    "priority": "High",
+    "story_points": 2,
+    "reporter_id": "PER-0002",
+    "assignee_id": "PER-0003",
+    "status_timeline": [
+      {
+        "status": "Backlog",
+        "at": "2025-07-02 00:00:00"
+      },
+      {
+        "status": "To Do",
+        "at": "2025-07-03 00:00:00"
+      },
+      {
+        "status": "In Progress",
+        "at": "2025-07-05 00:00:00"
+      },
+      {
+        "status": "Code Review",
+        "at": "2025-07-06 00:00:00"
+      },
+      {
+        "status": "Testing",
+        "at": "2025-07-07 00:00:00"
+      },
+      {
+        "status": "Done",
+        "at": "2025-07-08 00:00:00"
+      }
+    ],
+    "comments": [
+      {
+        "body": "Can we check the number of concurrent requests allowed?",
+        "at": "2025-07-03 00:00:00",
+        "author_id": "PER-0003"
+      },
+      {
+        "body": "Working on the rate limiting setup now.",
+        "at": "2025-07-05 00:00:00",
+        "author_id": "PER-0003"
+      },
+      {
+        "body": "Great job fixing the limits, let's ensure documentation is updated.",
+        "at": "2025-07-06 00:00:00",
+        "author_id": "PER-0003"
+      },
+      {
+        "body": "Testing has confirmed the fix. Everything is operational.",
+        "at": "2025-07-07 00:00:00",
+        "author_id": "PER-0003"
+      },
+      {
+        "body": "Deployed the changes to production.",
+        "at": "2025-07-08 00:00:00",
+        "author_id": "PER-0003"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "api_rate_limits_doc.pdf",
+        "url": "https://example.com/attachments/api_rate_limits_doc.pdf"
+      }
+    ]
+  }
+}

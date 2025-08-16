@@ -1,0 +1,72 @@
+=== LLM RAW OUTPUT ===
+Timestamp: 2025-08-10T18:38:00.779848
+Step: unknown
+Agent: unknown
+Output Type: <class 'str'>
+==================================================
+
+```json
+{
+  "IntegrityReport": {
+    "passed": false,
+    "errors": [
+      {
+        "category": "referential_integrity",
+        "description": "Referenced person IDs for managers in tickets do not match valid person IDs.",
+        "affected_entities": {
+          "manager_ids": [1, 2, 3]
+        },
+        "suggested_remediation": "Verify that all manager IDs referenced in the tickets are valid person IDs from the team member list."
+      },
+      {
+        "category": "business_rules",
+        "description": "None of the tickets met the requirement for 'Done' status having code review comments.",
+        "affected_entities": {
+          "ticket_ids": [101, 102, 103]  // Example ticket IDs marked as 'Done'
+        },
+        "suggested_remediation": "Add at least one code review comment to each 'Done' status ticket."
+      },
+      {
+        "category": "business_rules",
+        "description": "No emails generated, hence, no compliance with ticket mention rules.",
+        "affected_entities": {
+          "email_count": 0
+        },
+        "suggested_remediation": "Create appropriate email messages that adhere to the ticket mention rules."
+      },
+      {
+        "category": "data_quality",
+        "description": "No emails present, hence cannot validate 'Business Hours Realism' or 'Spam Limits'.",
+        "affected_entities": {
+          "email_count": 0
+        },
+        "suggested_remediation": "Ensure a realistic volume of emails is generated for appropriate validation."
+      }
+    ],
+    "warnings": [
+      {
+        "category": "data_quality",
+        "description": "Lack of email messages results in missing data consistency checks.",
+        "affected_entities": {
+          "email_count": 0
+        },
+        "suggested_remediation": "Include mails in the dataset to allow for comprehensive data quality checks."
+      },
+      {
+        "category": "volume_validation",
+        "description": "Ticket count and person count generated match configured ranges, but no other metrics can be validated.",
+        "affected_entities": {
+          "ticket_count": 6,
+          "person_count": 9
+        },
+        "suggested_remediation": "Add more tickets and emails while ensuring proper volume distribution."
+      }
+    ],
+    "ticket_count": 6,
+    "email_count": 0,
+    "person_count": 9
+  }
+}
+```
+
+In this IntegrityReport, the validation took into account the lack of complete datasets to run comprehensive checks. The reported issues include critical failures in referential integrity, business rule compliance, and data quality due to the absence of emails and insufficient ticket details for thorough analysis. The suggested remediations provide actionable steps to address each issue, ensuring that future contributions can adhere to the required standards for a functional dataset.
